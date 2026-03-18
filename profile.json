@@ -22,6 +22,12 @@
         "enabled": true,
         "source": null,
         "tags": []
+      },
+      {
+        "purl": "curseforge:585406@7105159",
+        "enabled": true,
+        "source": null,
+        "tags": []
       }
     ],
     "rules": []
