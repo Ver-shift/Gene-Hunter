@@ -1,0 +1,11 @@
+# 忽略所有文件和文件夹
+*
+
+# 但保留以下指定的文件和文件夹
+!import/
+!import/**
+!doc/
+!doc/**
+!profile.json
+!README.md
+!.gitignore
