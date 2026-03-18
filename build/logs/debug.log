@@ -1,0 +1,952 @@
+[183月2026 17:55:11.038] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, zhaodaxia, --version, 1.21.1, --gameDir, C:\Users\hp\.trident\instances\gene_hunter\build, --assetsDir, C:\Users\hp\.trident\cache\assets, --assetIndex, 17, --uuid, 8c2ba9e032a5063588dc756f50971af9, --accessToken, ❄❄❄❄❄❄❄❄, --userType, legacy, --versionType, Polymerium, --fml.neoForgeVersion, 21.1.220, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient, --width, 1270, --height, 720, --quickPlayMultiplayer, ]
+[183月2026 17:55:11.043] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Azul Systems, Inc. OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[183月2026 17:55:11.045] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Azul Systems, Inc.; OS Windows 11 arch amd64 version 10.0
+[183月2026 17:55:11.065] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
+[183月2026 17:55:11.088] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[183月2026 17:55:11.096] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[183月2026 17:55:11.098] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\hp\.trident\instances\gene_hunter\build
+[183月2026 17:55:11.098] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\hp\.trident\instances\gene_hunter\build\mods
+[183月2026 17:55:11.098] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\hp\.trident\instances\gene_hunter\build\config
+[183月2026 17:55:11.098] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\hp\.trident\instances\gene_hunter\build\config\fml.toml
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from C:\Users\hp\.trident\instances\gene_hunter\build\config\fml.toml
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 14
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 1270
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 720
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[183月2026 17:55:11.138] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[183月2026 17:55:11.150] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[183月2026 17:55:11.150] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[183月2026 17:55:11.233] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[183月2026 17:55:11.458] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[183月2026 17:55:11.528] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[183月2026 17:55:11.528] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[183月2026 17:55:11.528] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[183月2026 17:55:11.528] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[183月2026 17:55:11.528] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[183月2026 17:55:11.528] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 4.0.42 loading
+[183月2026 17:55:11.528] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 11.0.5+main.901c6ea8
+[183月2026 17:55:11.528] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[183月2026 17:55:11.532] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[183月2026 17:55:11.532] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[183月2026 17:55:11.532] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[183月2026 17:55:11.532] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[183月2026 17:55:11.545] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=21.1.220, fmlVersion=4.0.42, mcVersion=1.21.1, neoFormVersion=20240808.144430]
+[183月2026 17:55:11.545] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[183月2026 17:55:11.546] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[183月2026 17:55:11.557] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@1b7cc17c
+[183月2026 17:55:11.568] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/hp/.trident/cache/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23159!/ Service=ModLauncher Env=CLIENT
+[183月2026 17:55:11.568] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[183月2026 17:55:11.568] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[183月2026 17:55:11.568] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[183月2026 17:55:11.568] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[183月2026 17:55:11.568] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[183月2026 17:55:11.568] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[183月2026 17:55:11.568] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[183月2026 17:55:11.568] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[183月2026 17:55:11.568] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[183月2026 17:55:11.575] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\hp\.trident\instances\gene_hunter\build
+[183月2026 17:55:11.575] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\hp\.trident\instances\gene_hunter\build\mods
+[183月2026 17:55:11.575] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\hp\.trident\instances\gene_hunter\build\config
+[183月2026 17:55:11.575] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\hp\.trident\instances\gene_hunter\build\config\fml.toml
+[183月2026 17:55:11.575] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from C:\Users\hp\.trident\instances\gene_hunter\build\config\fml.toml
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 14
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 1270
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 720
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[183月2026 17:55:11.578] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[183月2026 17:55:11.578] [main/DEBUG] [net.neoforged.fml.loading.LaunchContext/SCAN]: Located paths when launch context was created: [C:\Users\hp\.trident\cache\libraries\org\jline\jline-terminal\3.20.0\jline-terminal-3.20.0.jar, C:\Users\hp\.trident\cache\libraries\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-natives-windows-x86\3.3.3\lwjgl-natives-windows-x86-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar, C:\Users\hp\.trident\cache\libraries\it\unimi\dsi\fastutil\8.5.12\fastutil-8.5.12.jar, C:\Users\hp\.trident\cache\libraries\com\mojang\authlib\6.0.54\authlib-6.0.54.jar, C:\Users\hp\.trident\cache\libraries\com\mojang\text2speech\1.17.9\text2speech-1.17.9.jar, C:\Users\hp\.trident\cache\libraries\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar, C:\Users\hp\.trident\cache\libraries\org\jcraft\jorbis\0.0.17\jorbis-0.0.17.jar, C:\Users\hp\.trident\cache\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar, C:\Users\hp\.trident\cache\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar, C:\Users\hp\.trident\cache\libraries\com\electronwill\night-config\toml\3.8.3\toml-3.8.3.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-glfw-natives-windows-x86\3.3.3\lwjgl-glfw-natives-windows-x86-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\com\mojang\logging\1.2.7\logging-1.2.7.jar, C:\Users\hp\.trident\cache\libraries\org\jline\jline-reader\3.20.0\jline-reader-3.20.0.jar, C:\Users\hp\.trident\cache\libraries\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar, C:\Users\hp\.trident\cache\libraries\io\netty\netty-common\4.1.97.Final\netty-common-4.1.97.Final.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\net\neoforged\JarJarSelector\0.4.1\JarJarSelector-0.4.1.jar, C:\Users\hp\.trident\cache\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar, C:\Users\hp\.trident\cache\libraries\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar, C:\Users\hp\.trident\cache\libraries\net\neoforged\accesstransformers\10.0.1\accesstransformers-10.0.1.jar, C:\Users\hp\.trident\cache\libraries\cpw\mods\modlauncher\11.0.5\modlauncher-11.0.5.jar, C:\Users\hp\.trident\cache\libraries\net\minecraftforge\srgutils\0.4.15\srgutils-0.4.15.jar, C:\Users\hp\.trident\cache\libraries\io\netty\netty-handler\4.1.97.Final\netty-handler-4.1.97.Final.jar, C:\Users\hp\.trident\cache\libraries\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\com\mojang\datafixerupper\8.0.16\datafixerupper-8.0.16.jar, C:\Users\hp\.trident\cache\libraries\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar, C:\Users\hp\.trident\cache\libraries\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-opengl-natives-windows-x86\3.3.3\lwjgl-opengl-natives-windows-x86-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar, C:\Users\hp\.trident\cache\libraries\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar, C:\Users\hp\.trident\cache\libraries\io\netty\netty-buffer\4.1.97.Final\netty-buffer-4.1.97.Final.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-jemalloc-natives-windows-x86\3.3.3\lwjgl-jemalloc-natives-windows-x86-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\com\github\oshi\oshi-core\6.4.10\oshi-core-6.4.10.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-openal-natives-windows-x86\3.3.3\lwjgl-openal-natives-windows-x86-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\com\ibm\icu\icu4j\73.2\icu4j-73.2.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar, C:\Users\hp\.trident\cache\libraries\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar, C:\Users\hp\.trident\cache\libraries\io\netty\netty-transport-classes-epoll\4.1.97.Final\netty-transport-classes-epoll-4.1.97.Final.jar, C:\Users\hp\.trident\cache\libraries\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar, C:\Users\hp\.trident\cache\libraries\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, C:\Users\hp\.trident\cache\libraries\net\neoforged\mergetool\2.0.0\mergetool-2.0.0-api.jar, C:\Users\hp\.trident\cache\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar, C:\Users\hp\.trident\cache\libraries\io\netty\netty-resolver\4.1.97.Final\netty-resolver-4.1.97.Final.jar, C:\Users\hp\.trident\cache\libraries\net\fabricmc\sponge-mixin\0.15.2+mixin.0.8.7\sponge-mixin-0.15.2+mixin.0.8.7.jar, C:\Users\hp\.trident\cache\libraries\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar, C:\Users\hp\.trident\cache\libraries\com\electronwill\night-config\core\3.8.3\core-3.8.3.jar, C:\Users\hp\.trident\cache\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.22.1\log4j-slf4j2-impl-2.22.1.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-tinyfd-natives-windows-x86\3.3.3\lwjgl-tinyfd-natives-windows-x86-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-stb-natives-windows-x86\3.3.3\lwjgl-stb-natives-windows-x86-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-freetype-natives-windows-x86\3.3.3\lwjgl-freetype-natives-windows-x86-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\net\java\dev\jna\jna\5.14.0\jna-5.14.0.jar, C:\Users\hp\.trident\cache\libraries\io\netty\netty-transport\4.1.97.Final\netty-transport-4.1.97.Final.jar, C:\Users\hp\.trident\cache\libraries\com\machinezoo\noexception\noexception\1.7.1\noexception-1.7.1.jar, C:\Users\hp\.trident\cache\libraries\io\netty\netty-transport-native-unix-common\4.1.97.Final\netty-transport-native-unix-common-4.1.97.Final.jar, C:\Users\hp\.trident\cache\libraries\net\neoforged\fancymodloader\loader\4.0.42\loader-4.0.42.jar, C:\Users\hp\.trident\cache\libraries\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar, C:\Users\hp\.trident\cache\libraries\org\apache\maven\maven-artifact\3.8.5\maven-artifact-3.8.5.jar, C:\Users\hp\.trident\cache\libraries\net\neoforged\bus\8.0.5\bus-8.0.5.jar, C:\Users\hp\.trident\cache\libraries\io\netty\netty-codec\4.1.97.Final\netty-codec-4.1.97.Final.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3.jar, C:\Users\hp\.trident\cache\libraries\net\minecrell\terminalconsoleappender\1.3.0\terminalconsoleappender-1.3.0.jar, C:\Users\hp\.trident\cache\libraries\org\openjdk\nashorn\nashorn-core\15.4\nashorn-core-15.4.jar, C:\Users\hp\.trident\cache\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar, C:\Users\hp\.trident\cache\libraries\net\jodah\typetools\0.6.3\typetools-0.6.3.jar, C:\Users\hp\.trident\cache\libraries\com\mojang\brigadier\1.3.10\brigadier-1.3.10.jar, C:\Users\hp\.trident\cache\libraries\net\java\dev\jna\jna-platform\5.14.0\jna-platform-5.14.0.jar, C:\Users\hp\.trident\cache\libraries\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar, C:\Users\hp\.trident\cache\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar, C:\Users\hp\.trident\cache\libraries\net\neoforged\accesstransformers\at-modlauncher\10.0.1\at-modlauncher-10.0.1.jar, C:\Users\hp\.trident\cache\libraries\net\neoforged\fancymodloader\earlydisplay\4.0.42\earlydisplay-4.0.42.jar, C:\Users\hp\.trident\cache\libraries\net\neoforged\JarJarMetadata\0.4.1\JarJarMetadata-0.4.1.jar, C:\Users\hp\.trident\cache\libraries\net\neoforged\coremods\7.0.3\coremods-7.0.3.jar, C:\Users\hp\.trident\cache\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3.jar]
+[183月2026 17:55:11.578] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[183月2026 17:55:11.578] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeclient as launch service
+[183月2026 17:55:11.585] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist CLIENT
+[183月2026 17:55:11.585] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[183月2026 17:55:11.585] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[183月2026 17:55:11.585] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[183月2026 17:55:11.585] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[183月2026 17:55:11.585] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[183月2026 17:55:11.588] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[183月2026 17:55:11.601] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
+[183月2026 17:55:11.601] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ProductionClientProvider from loader-4.0.42.jar
+[183月2026 17:55:11.608] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.PathBasedLocator from loader-4.0.42.jar
+[183月2026 17:55:11.608] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from loader-4.0.42.jar
+[183月2026 17:55:11.608] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.MavenDirectoryLocator from loader-4.0.42.jar
+[183月2026 17:55:11.608] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
+[183月2026 17:55:11.608] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from loader-4.0.42.jar
+[183月2026 17:55:11.608] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from loader-4.0.42.jar
+[183月2026 17:55:11.608] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
+[183月2026 17:55:11.608] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from loader-4.0.42.jar
+[183月2026 17:55:11.608] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 4 ways to find mods
+[183月2026 17:55:11.608] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator production client provider +net.neoforged:neoforge:21.1.220:client
+[183月2026 17:55:11.768] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 595.71, NVIDIA Corporation
+[183月2026 17:55:11.858] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-1.21.1-20240808.144430-srg.jar with {minecraft} mods - versions {1.21.1}
+[183月2026 17:55:11.858] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.220:client]
+[183月2026 17:55:11.858] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator production client provider +net.neoforged:neoforge:21.1.220:client found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[183月2026 17:55:11.858] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator PathBasedLocator[name=neoforge, paths=[C:\Users\hp\.trident\cache\libraries\net\neoforged\neoforge\21.1.220\neoforge-21.1.220-universal.jar]]
+[183月2026 17:55:11.868] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: C:\Users\hp\.trident\cache\libraries\net\neoforged\neoforge\21.1.220\neoforge-21.1.220-universal.jar
+[183月2026 17:55:11.868] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\hp\.trident\cache\libraries\net\neoforged\neoforge\21.1.220\neoforge-21.1.220-universal.jar
+[183月2026 17:55:11.878] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.1.220-universal.jar with {neoforge} mods - versions {21.1.220}
+[183月2026 17:55:11.878] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.220-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\hp\.trident\cache\libraries\net\neoforged\neoforge\21.1.220\neoforge-21.1.220-universal.jar]], reader: mod manifest]
+[183月2026 17:55:11.878] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator PathBasedLocator[name=neoforge, paths=[C:\Users\hp\.trident\cache\libraries\net\neoforged\neoforge\21.1.220\neoforge-21.1.220-universal.jar]] found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[183月2026 17:55:11.878] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at C:\Users\hp\.trident\instances\gene_hunter\build\mods}
+[183月2026 17:55:11.878] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator/SCAN]: Scanning mods dir C:\Users\hp\.trident\instances\gene_hunter\build\mods for mods
+[183月2026 17:55:11.889] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: C:\Users\hp\.trident\instances\gene_hunter\build\mods\jei-1.21.1-neoforge-19.27.0.340.jar
+[183月2026 17:55:11.889] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\hp\.trident\instances\gene_hunter\build\mods\jei-1.21.1-neoforge-19.27.0.340.jar
+[183月2026 17:55:11.889] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.21.1-neoforge-19.27.0.340.jar with {jei} mods - versions {19.27.0.340}
+[183月2026 17:55:11.889] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.27.0.340.jar" [locator: {mods folder locator at C:\Users\hp\.trident\instances\gene_hunter\build\mods}, reader: mod manifest]
+[183月2026 17:55:11.898] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: C:\Users\hp\.trident\instances\gene_hunter\build\mods\kubejs-neoforge-2101.7.2-build.348.jar
+[183月2026 17:55:11.898] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\hp\.trident\instances\gene_hunter\build\mods\kubejs-neoforge-2101.7.2-build.348.jar
+[183月2026 17:55:11.901] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file kubejs-neoforge-2101.7.2-build.348.jar with {kubejs} mods - versions {2101.7.2-build.348}
+[183月2026 17:55:11.901] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kubejs-neoforge-2101.7.2-build.348.jar" [locator: {mods folder locator at C:\Users\hp\.trident\instances\gene_hunter\build\mods}, reader: mod manifest]
+[183月2026 17:55:11.901] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: C:\Users\hp\.trident\instances\gene_hunter\build\mods\rhino-2101.2.7-build.81.jar
+[183月2026 17:55:11.901] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\hp\.trident\instances\gene_hunter\build\mods\rhino-2101.2.7-build.81.jar
+[183月2026 17:55:11.901] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file rhino-2101.2.7-build.81.jar with {rhino} mods - versions {2101.2.7-build.81}
+[183月2026 17:55:11.901] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "rhino-2101.2.7-build.81.jar" [locator: {mods folder locator at C:\Users\hp\.trident\instances\gene_hunter\build\mods}, reader: mod manifest]
+[183月2026 17:55:11.901] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at C:\Users\hp\.trident\instances\gene_hunter\build\mods} found 3 mods, 0 warnings, 0 errors and skipped 0 candidates
+[183月2026 17:55:11.901] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator maven libs
+[183月2026 17:55:11.909] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[183月2026 17:55:11.909] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator maven libs found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[183月2026 17:55:11.921] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 5 mods. Attempting to load dependencies...
+[183月2026 17:55:11.921] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator jarinjar
+[183月2026 17:55:11.921] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from client-1.21.1-20240808.144430-srg.jar, it does not contain dependency information.
+[183月2026 17:55:11.921] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from rhino-2101.2.7-build.81.jar, it does not contain dependency information.
+[183月2026 17:55:11.921] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from jei-1.21.1-neoforge-19.27.0.340.jar, it does not contain dependency information.
+[183月2026 17:55:11.982] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[183月2026 17:55:11.984] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
+[183月2026 17:55:11.984] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from animated-gif-lib-for-java-animated-gif-lib-1.7.jar, it does not contain dependency information.
+[183月2026 17:55:11.984] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from tiny-java-server-1.0.0-build.33.jar, it does not contain dependency information.
+[183月2026 17:55:11.984] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.5.0.jar, it does not contain dependency information.
+[183月2026 17:55:11.984] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from net.neoforged.neoforge-coremods-21.1.220.jar, it does not contain dependency information.
+[183月2026 17:55:12.002] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
+[183月2026 17:55:12.008] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[183月2026 17:55:12.012] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[183月2026 17:55:12.012] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.1.220-universal.jar, locator: jarinjar, reader: mod manifest]
+[183月2026 17:55:12.012] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "animated-gif-lib-for-java-animated-gif-lib-1.7.jar" [parent: kubejs-neoforge-2101.7.2-build.348.jar, locator: jarinjar]
+[183月2026 17:55:12.012] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "tiny-java-server-1.0.0-build.33.jar" [parent: kubejs-neoforge-2101.7.2-build.348.jar, locator: jarinjar]
+[183月2026 17:55:12.012] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.220.jar" [parent: neoforge-21.1.220-universal.jar, locator: jarinjar, reader: mod manifest]
+[183月2026 17:55:12.012] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Just Enough Items 19.27.0.340 (jei)
+		KubeJS 2101.7.2-build.348 (kubejs)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.220 (neoforge)
+		Rhino 2101.2.7-build.81 (rhino)
+[183月2026 17:55:12.012] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-1.21.1-20240808.144430-srg.jar with {minecraft} mods - versions {1.21.1}
+[183月2026 17:55:12.012] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\hp\.trident\cache\libraries\net\minecraft\client\1.21.1-20240808.144430\client-1.21.1-20240808.144430-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[183月2026 17:55:12.018] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\hp\.trident\instances\gene_hunter\build\mods\kubejs-neoforge-2101.7.2-build.348.jar
+[183月2026 17:55:12.018] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file kubejs-neoforge-2101.7.2-build.348.jar with {kubejs} mods - versions {2101.7.2-build.348}
+[183月2026 17:55:12.018] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\hp\.trident\instances\gene_hunter\build\mods\kubejs-neoforge-2101.7.2-build.348.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[183月2026 17:55:12.018] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=kubejs.mixins.json, requiredMods=[]]
+[183月2026 17:55:12.018] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\hp\.trident\instances\gene_hunter\build\mods\rhino-2101.2.7-build.81.jar
+[183月2026 17:55:12.021] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file rhino-2101.2.7-build.81.jar with {rhino} mods - versions {2101.2.7-build.81}
+[183月2026 17:55:12.021] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\hp\.trident\instances\gene_hunter\build\mods\rhino-2101.2.7-build.81.jar with languages [LanguageSpec[languageName=lowcodefml, acceptedVersions=[2,)]]
+[183月2026 17:55:12.021] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\hp\.trident\cache\libraries\net\neoforged\neoforge\21.1.220\neoforge-21.1.220-universal.jar
+[183月2026 17:55:12.021] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.1.220-universal.jar with {neoforge} mods - versions {21.1.220}
+[183月2026 17:55:12.021] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\hp\.trident\cache\libraries\net\neoforged\neoforge\21.1.220\neoforge-21.1.220-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[183月2026 17:55:12.021] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=neoforge.mixins.json, requiredMods=[]]
+[183月2026 17:55:12.022] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\hp\.trident\instances\gene_hunter\build\mods\jei-1.21.1-neoforge-19.27.0.340.jar
+[183月2026 17:55:12.022] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.21.1-neoforge-19.27.0.340.jar with {jei} mods - versions {19.27.0.340}
+[183月2026 17:55:12.022] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\hp\.trident\instances\gene_hunter\build\mods\jei-1.21.1-neoforge-19.27.0.340.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[183月2026 17:55:12.022] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[183月2026 17:55:12.022] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 6 mod files with 5 mods
+[183月2026 17:55:12.022] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[183月2026 17:55:12.038] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 3 implementations of IModLanguageLoader:
+[183月2026 17:55:12.038] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from loader-4.0.42.jar
+[183月2026 17:55:12.038] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.lowcodemod.LowCodeModLanguageProvider from loader-4.0.42.jar
+[183月2026 17:55:12.038] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from loader-4.0.42.jar
+[183月2026 17:55:12.038] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 4.0.42
+[183月2026 17:55:12.038] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider lowcodefml, version 4.0.42
+[183月2026 17:55:12.038] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 4.0.42
+[183月2026 17:55:12.042] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[183月2026 17:55:12.042] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[183月2026 17:55:12.042] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[183月2026 17:55:12.042] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 7 mod requirements (4 mandatory, 3 optional)
+[183月2026 17:55:12.048] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[183月2026 17:55:12.058] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\hp\.trident\cache\libraries\net\neoforged\neoforge\21.1.220\neoforge-21.1.220-universal.jar
+[183月2026 17:55:12.066] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[183月2026 17:55:12.178] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[183月2026 17:55:12.178] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\hp\.trident\instances\gene_hunter\build\mods\jei-1.21.1-neoforge-19.27.0.340.jar
+[183月2026 17:55:12.178] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[183月2026 17:55:12.186] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[183月2026 17:55:12.186] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\hp\.trident\instances\gene_hunter\build\mods\kubejs-neoforge-2101.7.2-build.348.jar
+[183月2026 17:55:12.186] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[183月2026 17:55:12.188] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[183月2026 17:55:12.195] [main/DEBUG] [mixin/]: Adding mixin platform agents for container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@756b58a7
+[183月2026 17:55:12.195] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@756b58a7
+[183月2026 17:55:12.195] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@756b58a7
+[183月2026 17:55:12.195] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@756b58a7
+[183月2026 17:55:12.195] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@756b58a7
+[183月2026 17:55:12.195] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@756b58a7
+[183月2026 17:55:12.195] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@756b58a7
+[183月2026 17:55:12.215] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[183月2026 17:55:12.215] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[183月2026 17:55:12.217] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[183月2026 17:55:12.217] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[183月2026 17:55:12.217] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/LOADING]: Loading coremod transformers
+[183月2026 17:55:12.218] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Not loading coremod script-engine since no mod requested it
+[183月2026 17:55:12.219] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ICoreMod:
+[183月2026 17:55:12.219] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from neoforge-21.1.220-universal.jar > net.neoforged.neoforge-coremods-21.1.220.jar
+[183月2026 17:55:12.231] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net.minecraft.world.level.biome.Biome, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@6642dc5a in neoforge-21.1.220-universal.jar > net.neoforged.neoforge-coremods-21.1.220.jar
+[183月2026 17:55:12.231] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net.minecraft.world.level.levelgen.structure.Structure, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@6642dc5a in neoforge-21.1.220-universal.jar > net.neoforged.neoforge-coremods-21.1.220.jar
+[183月2026 17:55:12.231] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net.minecraft.world.level.block.FlowerPotBlock, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@6642dc5a in neoforge-21.1.220-universal.jar > net.neoforged.neoforge-coremods-21.1.220.jar
+[183月2026 17:55:12.231] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/raid/Raid, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/EntityType, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/animal/horse/SkeletonTrapGoal, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/animal/frog/Tadpole, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/npc/Villager, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/server/commands/RaidCommand, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/level/levelgen/PatrolSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/npc/CatSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/monster/Strider, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/ai/village/VillageSiege, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/level/NaturalSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/server/commands/SummonCommand, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/level/levelgen/PhantomSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/monster/Spider, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/monster/Zombie, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70], Target[className=net/minecraft/world/entity/monster/ZombieVillager, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@62435e70]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@6642dc5a in neoforge-21.1.220-universal.jar > net.neoforged.neoforge-coremods-21.1.220.jar
+[183月2026 17:55:12.240] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.ReplaceFieldWithGetterAccess@6bbe50c9 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[183月2026 17:55:12.242] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.ReplaceFieldWithGetterAccess@51d9b06c to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[183月2026 17:55:12.243] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.ReplaceFieldWithGetterAccess@5eb2172 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[183月2026 17:55:12.243] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@41ffaeb8 to Target : cpw.mods.modlauncher.api.TargetType@62435e70 {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[183月2026 17:55:12.244] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[183月2026 17:55:12.398] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[183月2026 17:55:12.398] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@756b58a7]
+[183月2026 17:55:12.398] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[FMLMixinPlatformAgent:null]
+[183月2026 17:55:12.432] [main/DEBUG] [mixin/]: Compatibility level JAVA_21 specified by kubejs.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[183月2026 17:55:12.438] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixin_synthetic)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixin_synthetic)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixin_synthetic)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixin_synthetic)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixin_synthetic)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixin_synthetic)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixin_synthetic)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin_synthetic)]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(minecraft)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(minecraft)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(rhino)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(rhino)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(rhino)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(rhino)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(rhino)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(rhino)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(rhino)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(rhino)]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jei)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jei)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jei)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jei)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jei)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(jei)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(jei)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(kubejs)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(kubejs)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(kubejs)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(kubejs)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(kubejs)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(kubejs)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(kubejs)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(kubejs)]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras.neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras.neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras.neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras.neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras.neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixinextras.neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixinextras.neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=SecureJarResource(mixinextras.neoforge)
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: inject() running with 9 agents
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@756b58a7]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[FMLMixinPlatformAgent:null]
+[183月2026 17:55:12.438] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin_synthetic)]
+[183月2026 17:55:12.444] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[183月2026 17:55:12.444] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(rhino)]
+[183月2026 17:55:12.444] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[183月2026 17:55:12.444] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[183月2026 17:55:12.444] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(kubejs)]
+[183月2026 17:55:12.444] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[183月2026 17:55:12.444] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.21.1, --gameDir, C:\Users\hp\.trident\instances\gene_hunter\build, --assetsDir, C:\Users\hp\.trident\cache\assets, --uuid, 8c2ba9e032a5063588dc756f50971af9, --username, zhaodaxia, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --userType, legacy, --versionType, Polymerium, --width, 1270, --height, 720, --quickPlayMultiplayer, ]
+[183月2026 17:55:12.467] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[183月2026 17:55:12.468] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[183月2026 17:55:12.468] [main/DEBUG] [mixin/]: Selecting config kubejs.mixins.json
+[183月2026 17:55:12.478] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[183月2026 17:55:12.498] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
+[183月2026 17:55:12.530] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[183月2026 17:55:12.530] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[183月2026 17:55:12.530] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[183月2026 17:55:12.530] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[183月2026 17:55:12.530] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[183月2026 17:55:12.530] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[183月2026 17:55:12.539] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[183月2026 17:55:12.554] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.entity.BlockEntityType INNERCLASS BlockEntitySupplier to access PUBLIC and LEAVE
+[183月2026 17:55:12.568] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/BlockEntityType to metadata cache
+[183月2026 17:55:12.568] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/MappedRegistry to metadata cache
+[183月2026 17:55:12.568] [main/DEBUG] [mixin/]: Preparing kubejs.mixins.json (88)
+[183月2026 17:55:12.588] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/advancements/AdvancementNode to metadata cache
+[183月2026 17:55:12.588] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.state.BlockBehaviour METHOD propertiesCodec()Lcom/mojang/serialization/codecs/RecordCodecBuilder; to access PUBLIC and LEAVE
+[183月2026 17:55:12.596] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/state/BlockBehaviour to metadata cache
+[183月2026 17:55:12.598] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.Block METHOD popExperience(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;I)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.598] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/Block to metadata cache
+[183月2026 17:55:12.603] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase to metadata cache
+[183月2026 17:55:12.603] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/ChatFormatting to metadata cache
+[183月2026 17:55:12.603] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/chat/ClickEvent to metadata cache
+[183月2026 17:55:12.603] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/CollectionTag to metadata cache
+[183月2026 17:55:12.603] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.commands.CommandSourceStack FIELD source to access PUBLIC and LEAVE
+[183月2026 17:55:12.608] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/commands/CommandSourceStack to metadata cache
+[183月2026 17:55:12.608] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/crafting/CompoundIngredient to metadata cache
+[183月2026 17:55:12.608] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.nbt.CompoundTag FIELD tags to access PUBLIC and LEAVE
+[183月2026 17:55:12.608] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.nbt.CompoundTag METHOD readNamedTagData(Lnet/minecraft/nbt/TagType;Ljava/lang/String;Ljava/io/DataInput;Lnet/minecraft/nbt/NbtAccounter;)Lnet/minecraft/nbt/Tag; to access PUBLIC and LEAVE
+[183月2026 17:55:12.608] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/CompoundTag to metadata cache
+[183月2026 17:55:12.608] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/Container to metadata cache
+[183月2026 17:55:12.608] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.CreativeModeTab INNERCLASS TabVisibility to access PUBLIC and LEAVE
+[183月2026 17:55:12.608] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/CreativeModeTab to metadata cache
+[183月2026 17:55:12.608] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.damagesource.DamageSource METHOD <init>(Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.618] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/damagesource/DamageSource to metadata cache
+[183月2026 17:55:12.618] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/component/DataComponentMap$Builder to metadata cache
+[183月2026 17:55:12.618] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/component/DataComponentPatch$Builder to metadata cache
+[183月2026 17:55:12.618] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/component/DataComponents to metadata cache
+[183月2026 17:55:12.621] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/crafting/DifferenceIngredient to metadata cache
+[183月2026 17:55:12.621] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.DiggerItem METHOD <init>(Lnet/minecraft/world/item/Tier;Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/item/Item$Properties;)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.621] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/DiggerItem to metadata cache
+[183月2026 17:55:12.621] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/Direction to metadata cache
+[183月2026 17:55:12.621] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/DyeColor to metadata cache
+[183月2026 17:55:12.621] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/EntityGetter to metadata cache
+[183月2026 17:55:12.628] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD ENTITY_COUNTER to access PROTECTED and LEAVE
+[183月2026 17:55:12.628] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity METHOD getEncodeId()Ljava/lang/String; to access PUBLIC and LEAVE
+[183月2026 17:55:12.638] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/Entity to metadata cache
+[183月2026 17:55:12.648] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/EntityType to metadata cache
+[183月2026 17:55:12.658] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/item/FallingBlockEntity to metadata cache
+[183月2026 17:55:12.658] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/FireworkRocketEntity to metadata cache
+[183月2026 17:55:12.658] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/fluids/crafting/FluidIngredient to metadata cache
+[183月2026 17:55:12.658] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/material/Fluid to metadata cache
+[183月2026 17:55:12.658] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/fluids/FluidStack to metadata cache
+[183月2026 17:55:12.662] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.GameRules METHOD register(Ljava/lang/String;Lnet/minecraft/world/level/GameRules$Category;Lnet/minecraft/world/level/GameRules$Type;)Lnet/minecraft/world/level/GameRules$Key; to access PUBLIC and LEAVE
+[183月2026 17:55:12.662] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/GameRules to metadata cache
+[183月2026 17:55:12.662] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/Holder to metadata cache
+[183月2026 17:55:12.662] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/extensions/IBlockStateExtension to metadata cache
+[183月2026 17:55:12.662] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/crafting/ICustomIngredient to metadata cache
+[183月2026 17:55:12.662] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/items/IItemHandler to metadata cache
+[183月2026 17:55:12.662] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.crafting.Ingredient INNERCLASS Value to access PUBLIC and REMOVEFINAL
+[183月2026 17:55:12.662] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.crafting.Ingredient INNERCLASS TagValue to access PUBLIC and LEAVE
+[183月2026 17:55:12.662] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.crafting.Ingredient INNERCLASS ItemValue to access PUBLIC and LEAVE
+[183月2026 17:55:12.662] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.crafting.Ingredient CLASS to access PUBLIC and REMOVEFINAL
+[183月2026 17:55:12.668] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.crafting.Ingredient FIELD values to access PUBLIC and REMOVEFINAL
+[183月2026 17:55:12.668] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.crafting.Ingredient FIELD itemStacks to access PUBLIC and LEAVE
+[183月2026 17:55:12.668] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.crafting.Ingredient FIELD stackingIds to access PUBLIC and LEAVE
+[183月2026 17:55:12.668] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.crafting.Ingredient METHOD <init>(Ljava/util/stream/Stream;)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.668] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.crafting.Ingredient METHOD fromValues(Ljava/util/stream/Stream;)Lnet/minecraft/world/item/crafting/Ingredient; to access PUBLIC and LEAVE
+[183月2026 17:55:12.668] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/crafting/Ingredient to metadata cache
+[183月2026 17:55:12.668] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/crafting/IntersectionIngredient to metadata cache
+[183月2026 17:55:12.670] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.item.ItemEntity FIELD LIFETIME to access PUBLIC and LEAVE
+[183月2026 17:55:12.670] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.item.ItemEntity FIELD age to access PUBLIC and LEAVE
+[183月2026 17:55:12.670] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/item/ItemEntity to metadata cache
+[183月2026 17:55:12.672] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/decoration/ItemFrame to metadata cache
+[183月2026 17:55:12.672] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.Item FIELD components to access PRIVATE and REMOVEFINAL
+[183月2026 17:55:12.672] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.Item METHOD getPlayerPOVHitResult(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/ClipContext$Fluid;)Lnet/minecraft/world/phys/BlockHitResult; to access PUBLIC and LEAVE
+[183月2026 17:55:12.672] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/Item to metadata cache
+[183月2026 17:55:12.672] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/items/ItemStackHandler to metadata cache
+[183月2026 17:55:12.672] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/items/ComponentItemHandler to metadata cache
+[183月2026 17:55:12.678] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.ItemStack METHOD addToTooltip(Lnet/minecraft/core/component/DataComponentType;Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.678] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/ItemStack to metadata cache
+[183月2026 17:55:12.678] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.Level FIELD oRainLevel to access PUBLIC and LEAVE
+[183月2026 17:55:12.683] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.Level FIELD rainLevel to access PUBLIC and LEAVE
+[183月2026 17:55:12.683] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.Level FIELD oThunderLevel to access PUBLIC and LEAVE
+[183月2026 17:55:12.683] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.Level FIELD thunderLevel to access PUBLIC and LEAVE
+[183月2026 17:55:12.683] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/Level to metadata cache
+[183月2026 17:55:12.688] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.LivingEntity METHOD getHitbox()Lnet/minecraft/world/phys/AABB; to access PUBLIC and LEAVE
+[183月2026 17:55:12.688] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.LivingEntity METHOD getCurrentSwingDuration()I to access PUBLIC and LEAVE
+[183月2026 17:55:12.693] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/LivingEntity to metadata cache
+[183月2026 17:55:12.693] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/storage/loot/LootDataType to metadata cache
+[183月2026 17:55:12.698] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.inventory.MenuType INNERCLASS MenuSupplier to access PUBLIC and LEAVE
+[183月2026 17:55:12.698] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.inventory.MenuType METHOD <init>(Lnet/minecraft/world/inventory/MenuType$MenuSupplier;Lnet/minecraft/world/flag/FeatureFlagSet;)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.698] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/MenuType to metadata cache
+[183月2026 17:55:12.698] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.MinecraftServer INNERCLASS ReloadableResources to access PUBLIC and LEAVE
+[183月2026 17:55:12.698] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.MinecraftServer FIELD nextTickTimeNanos to access PROTECTED and LEAVE
+[183月2026 17:55:12.703] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/MinecraftServer to metadata cache
+[183月2026 17:55:12.703] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/chat/MutableComponent to metadata cache
+[183月2026 17:55:12.707] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/MutableDataComponentHolder to metadata cache
+[183月2026 17:55:12.707] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/NumericTag to metadata cache
+[183月2026 17:55:12.708] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/players/PlayerList to metadata cache
+[183月2026 17:55:12.708] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.player.Player METHOD closeContainer()V to access PUBLIC and LEAVE
+[183月2026 17:55:12.713] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/player/Player to metadata cache
+[183月2026 17:55:12.713] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/crafting/RecipeHolder to metadata cache
+[183月2026 17:55:12.717] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/crafting/RecipeInput to metadata cache
+[183月2026 17:55:12.717] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.crafting.RecipeManager FIELD LOGGER to access PUBLIC and LEAVE
+[183月2026 17:55:12.718] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/crafting/RecipeManager to metadata cache
+[183月2026 17:55:12.718] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/ReloadableServerResources to metadata cache
+[183月2026 17:55:12.718] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/resources/ResourceKey to metadata cache
+[183月2026 17:55:12.718] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.resources.ResourceLocation METHOD validNamespaceChar(C)Z to access PUBLIC and LEAVE
+[183月2026 17:55:12.718] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/resources/ResourceLocation to metadata cache
+[183月2026 17:55:12.723] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.level.ServerLevel METHOD getEntities()Lnet/minecraft/world/level/entity/LevelEntityGetter; to access PUBLIC and LEAVE
+[183月2026 17:55:12.723] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/level/ServerLevel to metadata cache
+[183月2026 17:55:12.734] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.level.ServerPlayer INNERCLASS RespawnPosAngle to access PUBLIC and LEAVE
+[183月2026 17:55:12.734] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.level.ServerPlayer METHOD checkRidingStatistics(DDD)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.738] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/level/ServerPlayer to metadata cache
+[183月2026 17:55:12.738] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/fluids/crafting/SizedFluidIngredient to metadata cache
+[183月2026 17:55:12.738] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/crafting/SizedIngredient to metadata cache
+[183月2026 17:55:12.738] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/StringRepresentable to metadata cache
+[183月2026 17:55:12.738] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/StringTag to metadata cache
+[183月2026 17:55:12.738] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/conditions/TagEmptyCondition to metadata cache
+[183月2026 17:55:12.738] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/tags/TagLoader to metadata cache
+[183月2026 17:55:12.743] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/tags/TagManager to metadata cache
+[183月2026 17:55:12.743] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/chat/TextColor to metadata cache
+[183月2026 17:55:12.744] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/Util to metadata cache
+[183月2026 17:55:12.744] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/WorldLoader to metadata cache
+[183月2026 17:55:12.744] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/WorldLoader$PackConfig to metadata cache
+[183月2026 17:55:12.749] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/player/AbstractClientPlayer @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.749] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/player/AbstractClientPlayer to metadata cache
+[183月2026 17:55:12.749] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.gui.components.AbstractSelectionList INNERCLASS Entry to access PUBLIC and LEAVE
+[183月2026 17:55:12.755] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/components/AbstractSelectionList to metadata cache
+[183月2026 17:55:12.755] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/multiplayer/ClientLevel @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.760] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/multiplayer/ClientLevel to metadata cache
+[183月2026 17:55:12.760] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.multiplayer.ClientPacketListener FIELD commands to access PUBLIC and LEAVE
+[183月2026 17:55:12.760] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/multiplayer/ClientPacketListener @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.768] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/multiplayer/ClientPacketListener to metadata cache
+[183月2026 17:55:12.768] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.768] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen to metadata cache
+[183月2026 17:55:12.775] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.renderer.GameRenderer METHOD loadEffect(Lnet/minecraft/resources/ResourceLocation;)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.775] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/GameRenderer @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.778] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/GameRenderer to metadata cache
+[183月2026 17:55:12.778] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/GuiGraphics @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.780] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiGraphics to metadata cache
+[183月2026 17:55:12.780] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/KeyboardHandler @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.780] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/KeyboardHandler to metadata cache
+[183月2026 17:55:12.785] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.renderer.LevelRenderer METHOD shouldShowEntityOutlines()Z to access PUBLIC and LEAVE
+[183月2026 17:55:12.785] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/LevelRenderer @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.792] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/LevelRenderer to metadata cache
+[183月2026 17:55:12.795] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.795] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/screens/LoadingOverlay to metadata cache
+[183月2026 17:55:12.796] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.player.LocalPlayer METHOD getPermissionLevel()I to access PUBLIC and LEAVE
+[183月2026 17:55:12.796] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/player/LocalPlayer @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.798] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/player/LocalPlayer to metadata cache
+[183月2026 17:55:12.798] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft INNERCLASS GameLoadCookie to access PUBLIC and LEAVE
+[183月2026 17:55:12.798] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft FIELD pendingConnection to access PUBLIC and LEAVE
+[183月2026 17:55:12.798] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/Minecraft @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.808] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/Minecraft to metadata cache
+[183月2026 17:55:12.808] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Options INNERCLASS FieldAccess to access PUBLIC and LEAVE
+[183月2026 17:55:12.808] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Options FIELD keyMappings to access PUBLIC and REMOVEFINAL
+[183月2026 17:55:12.808] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/Options @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.811] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/Options to metadata cache
+[183月2026 17:55:12.811] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.gui.screens.Screen FIELD narratables to access PUBLIC and LEAVE
+[183月2026 17:55:12.811] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.gui.screens.Screen FIELD renderables to access PUBLIC and LEAVE
+[183月2026 17:55:12.811] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/Screen @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.815] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/screens/Screen to metadata cache
+[183月2026 17:55:12.815] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/platform/Window @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.818] [main/TRACE] [mixin/]: Added class metadata for com/mojang/blaze3d/platform/Window to metadata cache
+[183月2026 17:55:12.818] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/worldselection/WorldOpenFlows @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.818] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/screens/worldselection/WorldOpenFlows to metadata cache
+[183月2026 17:55:12.818] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[183月2026 17:55:12.825] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/Holder$Reference to metadata cache
+[183月2026 17:55:12.848] [main/TRACE] [mixin/]: Added class metadata for java/lang/invoke/MethodHandles$Lookup to metadata cache
+[183月2026 17:55:12.848] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/At$Shift to metadata cache
+[183月2026 17:55:12.848] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/core/mixin/GameRulesMixin$1 to metadata cache
+[183月2026 17:55:12.848] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/GameRules$GameRuleTypeVisitor to metadata cache
+[183月2026 17:55:12.852] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/GameRules$Key to metadata cache
+[183月2026 17:55:12.852] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.GameRules$Value METHOD onChanged(Lnet/minecraft/server/MinecraftServer;)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.852] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.GameRules$Value METHOD deserialize(Ljava/lang/String;)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.852] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/GameRules$Value to metadata cache
+[183月2026 17:55:12.852] [main/DEBUG] [mixin/]: Inner class dev/latvian/mods/kubejs/core/mixin/GameRulesMixin$1 in dev/latvian/mods/kubejs/core/mixin/GameRulesMixin on net/minecraft/world/level/GameRules gets unique name net/minecraft/world/level/GameRules$Anonymous$918685f2202b46568a7569e732bb6fd7
+[183月2026 17:55:12.852] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.item.Item$Properties FIELD COMPONENT_INTERNER to access PUBLIC and LEAVE
+[183月2026 17:55:12.852] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/Item$Properties to metadata cache
+[183月2026 17:55:12.852] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/item/ItemBuilder$NameCallback to metadata cache
+[183月2026 17:55:12.852] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/item/ItemBuilder$UseCallback to metadata cache
+[183月2026 17:55:12.852] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/item/ItemBuilder$FinishUsingCallback to metadata cache
+[183月2026 17:55:12.852] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/item/ItemBuilder$ReleaseUsingCallback to metadata cache
+[183月2026 17:55:12.852] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/item/ItemBuilder$HurtEnemyContext to metadata cache
+[183月2026 17:55:12.852] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/Item$TooltipContext to metadata cache
+[183月2026 17:55:12.857] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/RegistryAccess$Frozen to metadata cache
+[183月2026 17:55:12.858] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/recipe/CachedTagLookup$Entry to metadata cache
+[183月2026 17:55:12.858] [main/TRACE] [mixin/]: Added class metadata for java/util/Map$Entry to metadata cache
+[183月2026 17:55:12.858] [main/TRACE] [mixin/]: Added class metadata for com/google/common/collect/ImmutableMultimap$Builder to metadata cache
+[183月2026 17:55:12.858] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.MinecraftServer$ReloadableResources CLASS to access PUBLIC and LEAVE
+[183月2026 17:55:12.858] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.MinecraftServer$ReloadableResources METHOD <init>(Lnet/minecraft/server/packs/resources/CloseableResourceManager;Lnet/minecraft/server/ReloadableServerResources;)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.858] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/MinecraftServer$ReloadableResources to metadata cache
+[183月2026 17:55:12.858] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.commands.Commands$CommandSelection FIELD includeIntegrated to access PUBLIC and LEAVE
+[183月2026 17:55:12.858] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.commands.Commands$CommandSelection FIELD includeDedicated to access PUBLIC and LEAVE
+[183月2026 17:55:12.858] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/commands/Commands$CommandSelection to metadata cache
+[183月2026 17:55:12.858] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/registry/RegistryType$Scanner to metadata cache
+[183月2026 17:55:12.858] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/conditions/ICondition$IContext to metadata cache
+[183月2026 17:55:12.858] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/tags/TagLoader$EntryWithSource to metadata cache
+[183月2026 17:55:12.858] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/RegistryAccess$RegistryEntry to metadata cache
+[183月2026 17:55:12.864] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/tags/TagManager$LoadResult to metadata cache
+[183月2026 17:55:12.864] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/packs/resources/PreparableReloadListener$PreparationBarrier to metadata cache
+[183月2026 17:55:12.864] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/WorldLoader$InitConfig to metadata cache
+[183月2026 17:55:12.864] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/WorldLoader$WorldDataSupplier to metadata cache
+[183月2026 17:55:12.864] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/WorldLoader$ResultFactory to metadata cache
+[183月2026 17:55:12.864] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.gui.components.AbstractSelectionList$Entry CLASS to access PUBLIC and LEAVE
+[183月2026 17:55:12.864] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.gui.components.AbstractSelectionList$Entry FIELD list to access PROTECTED and LEAVE
+[183月2026 17:55:12.864] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/components/AbstractSelectionList$Entry to metadata cache
+[183月2026 17:55:12.867] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/attachment/AttachmentHolder to metadata cache
+[183月2026 17:55:12.868] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft$GameLoadCookie CLASS to access PUBLIC and LEAVE
+[183月2026 17:55:12.868] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft$GameLoadCookie METHOD <init>(Lcom/mojang/realmsclient/client/RealmsClient;Lnet/minecraft/client/main/GameConfig$QuickPlayData;)V to access PUBLIC and LEAVE
+[183月2026 17:55:12.868] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/Minecraft$GameLoadCookie @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.868] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/Minecraft$GameLoadCookie to metadata cache
+[183月2026 17:55:12.868] [main/DEBUG] [mixin/]: Prepared 88 mixins in 0.400 sec (4.5ms avg) (0ms load, 0ms transform, 0ms plugin)
+[183月2026 17:55:12.868] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[183月2026 17:55:12.874] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[183月2026 17:55:12.874] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[183月2026 17:55:12.874] [main/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
+[183月2026 17:55:12.877] [main/DEBUG] [mixin/]: Mixing LoadingOverlayMixin from kubejs.mixins.json into net.minecraft.client.gui.screens.LoadingOverlay
+[183月2026 17:55:12.877] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/screens/Overlay to metadata cache
+[183月2026 17:55:12.888] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/components/Renderable to metadata cache
+[183月2026 17:55:12.898] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.898] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/AbstractTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.898] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay$LogoTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.901] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/vertex/VertexConsumer @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.901] [main/DEBUG] [mixin/]: Mixing GuiGraphicsMixin from kubejs.mixins.json into net.minecraft.client.gui.GuiGraphics
+[183月2026 17:55:12.905] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/CommonProperties to metadata cache
+[183月2026 17:55:12.905] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/client/ClientProperties to metadata cache
+[183月2026 17:55:12.905] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/client/KubeJSClient to metadata cache
+[183月2026 17:55:12.908] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/client/extensions/IGuiGraphicsExtension to metadata cache
+[183月2026 17:55:12.908] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/Font @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.908] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/Font to metadata cache
+[183月2026 17:55:12.911] [main/TRACE] [mixin/]: Added class metadata for java/lang/String to metadata cache
+[183月2026 17:55:12.938] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/GuiGraphics @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:12.943] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft INNERCLASS GameLoadCookie to access PUBLIC and LEAVE
+[183月2026 17:55:12.943] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft FIELD pendingConnection to access PUBLIC and LEAVE
+[183月2026 17:55:12.948] [main/DEBUG] [mixin/]: Mixing MinecraftClientMixin from kubejs.mixins.json into net.minecraft.client.Minecraft
+[183月2026 17:55:12.948] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/thread/ReentrantBlockableEventLoop to metadata cache
+[183月2026 17:55:12.948] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.util.thread.BlockableEventLoop METHOD submitAsync(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture; to access PUBLIC and LEAVE
+[183月2026 17:55:12.948] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/thread/BlockableEventLoop to metadata cache
+[183月2026 17:55:12.951] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/core/MinecraftClientKJS to metadata cache
+[183月2026 17:55:12.951] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/core/MinecraftEnvironmentKJS to metadata cache
+[183月2026 17:55:12.951] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$kjs$endResourceReload$1()V to mdd117a0$kubejs$lambda$kjs$endResourceReload$1$0 in kubejs.mixins.json:MinecraftClientMixin from mod kubejs
+[183月2026 17:55:12.951] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/core/MessageSenderKJS to metadata cache
+[183月2026 17:55:12.953] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$kjs$init$0()V to mdd117a0$kubejs$lambda$kjs$init$0$1 in kubejs.mixins.json:MinecraftClientMixin from mod kubejs
+[183月2026 17:55:12.953] [main/TRACE] [mixin/]: Added class metadata for java/lang/invoke/LambdaMetafactory to metadata cache
+[183月2026 17:55:12.958] [main/TRACE] [mixin/]: Added class metadata for java/util/concurrent/CompletableFuture to metadata cache
+[183月2026 17:55:12.958] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable to metadata cache
+[183月2026 17:55:12.958] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/client/ClientAssetPacks to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/client/ScheduledClientEvent to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/util/ScheduledEvents to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/plugin/builtin/event/ClientEvents to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/event/EventHandler to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/script/ScriptType to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/client/ClientPlayerKubeEvent to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/player/KubePlayerEvent to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/entity/KubeLivingEntityEvent to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/entity/KubeEntityEvent to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/level/KubeLevelEvent to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/event/KubeEvent to metadata cache
+[183月2026 17:55:12.963] [main/TRACE] [mixin/]: Added class metadata for dev/latvian/mods/kubejs/client/ClientKubeEvent to metadata cache
+[183月2026 17:55:12.968] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/profiling/metrics/ProfilerMeasured to metadata cache
+[183月2026 17:55:12.968] [main/TRACE] [mixin/]: Added class metadata for java/util/concurrent/Executor to metadata cache
+[183月2026 17:55:12.968] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/thread/ProcessorHandle to metadata cache
+[183月2026 17:55:12.973] [main/TRACE] [mixin/]: Added class metadata for java/lang/AutoCloseable to metadata cache
+[183月2026 17:55:12.973] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/client/extensions/IMinecraftExtension to metadata cache
+[183月2026 17:55:12.974] [main/TRACE] [mixin/]: Added class metadata for com/mojang/blaze3d/platform/WindowEventHandler to metadata cache
+[183月2026 17:55:12.974] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfo to metadata cache
+[183月2026 17:55:12.974] [main/TRACE] [mixin/]: Added class metadata for java/lang/Runnable to metadata cache
+[183月2026 17:55:12.981] [main/TRACE] [mixin/]: Added class metadata for java/util/List to metadata cache
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$createTitle(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$startAttack(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$startAttack(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$startAttack(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$startUseItem(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$startUseItem(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$startUseItem(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$postTickClient(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$postTickClient(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$postTickClient(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$endResourceReload(ZLnet/minecraft/client/Minecraft$GameLoadCookie;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$endResourceReload(ZLnet/minecraft/client/Minecraft$GameLoadCookie;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[183月2026 17:55:12.998] [main/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftClientMixin from mod kubejs->@Inject::kjs$endResourceReload(ZLnet/minecraft/client/Minecraft$GameLoadCookie;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[183月2026 17:55:13.004] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/Minecraft @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:13.008] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.util.thread.BlockableEventLoop METHOD submitAsync(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture; to access PUBLIC and LEAVE
+[183月2026 17:55:13.014] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.gui.screens.Screen FIELD narratables to access PUBLIC and LEAVE
+[183月2026 17:55:13.014] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.gui.screens.Screen FIELD renderables to access PUBLIC and LEAVE
+[183月2026 17:55:13.014] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/Screen @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:13.018] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/TitleScreen @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:13.020] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/multiplayer/ServerData @Lnet/neoforged/api/distmarker/OnlyIn;
+[183月2026 17:55:13.028] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD ENTITY_COUNTER to access PROTECTED and LEAVE
+[183月2026 17:55:13.028] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity METHOD getEncodeId()Ljava/lang/String; to access PUBLIC and LEAVE
+[183月2026 17:55:13.039] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.util.thread.BlockableEventLoop METHOD submitAsync(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture; to access PUBLIC and LEAVE
+[183月2026 17:55:13.135] [main/DEBUG] [mixin/]: Mixing StringRepresentableMixin from kubejs.mixins.json into net.minecraft.util.StringRepresentable
+[183月2026 17:55:13.203] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[183月2026 17:55:13.203] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[183月2026 17:55:13.203] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[183月2026 17:55:13.227] [main/DEBUG] [mixin/]: Mixing CompoundTagMixin from kubejs.mixins.json into net.minecraft.nbt.CompoundTag
+[183月2026 17:55:13.245] [main/DEBUG] [mixin/]: Mixing MutableComponentMixin from kubejs.mixins.json into net.minecraft.network.chat.MutableComponent
+[183月2026 17:55:13.252] [main/DEBUG] [mixin/]: Mixing ResourceLocationMixin from kubejs.mixins.json into net.minecraft.resources.ResourceLocation
+[183月2026 17:55:13.525] [main/DEBUG] [mixin/]: Mixing StringTagMixin from kubejs.mixins.json into net.minecraft.nbt.StringTag
+[183月2026 17:55:13.668] [main/DEBUG] [mixin/]: Mixing UtilMixin from kubejs.mixins.json into net.minecraft.Util
+[183月2026 17:55:13.668] [main/DEBUG] [mixin/]: kubejs.mixins.json:UtilMixin from mod kubejs->@Inject::shutdownExecutorsKJS(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:13.908] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@702c436b
+[183月2026 17:55:14.307] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 416 milliseconds
+[183月2026 17:55:14.314] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@702c436b
+[183月2026 17:55:14.387] [pool-9-thread-1/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[183月2026 17:55:14.387] [pool-9-thread-1/DEBUG] [mixin/]: neoforge.mixins.json:MappedRegistryAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[183月2026 17:55:14.399] [pool-9-thread-1/DEBUG] [mixin/]: Mixing HolderMixin from kubejs.mixins.json into net.minecraft.core.Holder
+[183月2026 17:55:14.400] [pool-9-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$kjs$isTag$0(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceKey;)Ljava/lang/Boolean; to mdd117a0$kubejs$lambda$kjs$isTag$0$0 in kubejs.mixins.json:HolderMixin from mod kubejs
+[183月2026 17:55:14.419] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ResourceKeyMixin from kubejs.mixins.json into net.minecraft.resources.ResourceKey
+[183月2026 17:55:14.424] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ResourceKeyMixin from mod kubejs->@Inject::kjs$getKeyStackTraces(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:14.424] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ResourceKeyMixin from mod kubejs->@Inject::kjs$getKeyStackTraces(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:14.424] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ResourceKeyMixin from mod kubejs->@Inject::kjs$getKeyStackTraces(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:14.488] [pool-9-thread-1/DEBUG] [mixin/]: Mixing CreativeModeTabMixin from kubejs.mixins.json into net.minecraft.world.item.CreativeModeTab
+[183月2026 17:55:14.497] [pool-9-thread-1/DEBUG] [mixin/]: Mixing DataComponentsMixin from kubejs.mixins.json into net.minecraft.core.component.DataComponents
+[183月2026 17:55:14.516] [pool-9-thread-1/DEBUG] [mixin/]: Mixing BlockMixin from kubejs.mixins.json into net.minecraft.world.level.block.Block
+[183月2026 17:55:14.538] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:BlockMixin from mod kubejs->@Inject::kjs$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:14.546] [pool-9-thread-1/DEBUG] [mixin/]: Mixing BlockBehaviourMixin from kubejs.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour
+[183月2026 17:55:14.558] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:BlockBehaviourMixin from mod kubejs->@Inject::onRandomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[183月2026 17:55:14.558] [pool-9-thread-1/DEBUG] [mixin/]: Mixing BlockStateBaseMixin from kubejs.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[183月2026 17:55:14.568] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:BlockStateBaseMixin from mod kubejs->@Inject::kjs$onRandomTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[183月2026 17:55:14.568] [pool-9-thread-1/DEBUG] [mixin/]: Mixing IBlockStateExtensionMixin from kubejs.mixins.json into net.neoforged.neoforge.common.extensions.IBlockStateExtension
+[183月2026 17:55:14.568] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:IBlockStateExtensionMixin from mod kubejs->@Inject::kjs$getCloneItemStack(Lnet/minecraft/world/phys/HitResult;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:14.581] [pool-9-thread-1/DEBUG] [mixin/]: Mixing EntityGetterMixin from kubejs.mixins.json into net.minecraft.world.level.EntityGetter
+[183月2026 17:55:14.595] [pool-9-thread-1/DEBUG] [mixin/]: Mixing EntityMixin from kubejs.mixins.json into net.minecraft.world.entity.Entity
+[183月2026 17:55:14.608] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:EntityMixin from mod kubejs->@Inject::saveKJS(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[183月2026 17:55:14.608] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:EntityMixin from mod kubejs->@Inject::saveKJS(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[183月2026 17:55:14.608] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:EntityMixin from mod kubejs->@Inject::saveKJS(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[183月2026 17:55:14.608] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:EntityMixin from mod kubejs->@Inject::loadKJS(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:14.608] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:EntityMixin from mod kubejs->@Inject::loadKJS(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:14.608] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:EntityMixin from mod kubejs->@Inject::loadKJS(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:14.628] [pool-9-thread-1/DEBUG] [mixin/]: Mixing PlayerMixin from kubejs.mixins.json into net.minecraft.world.entity.player.Player
+[183月2026 17:55:14.660] [pool-9-thread-1/DEBUG] [mixin/]: Mixing LivingEntityMixin from kubejs.mixins.json into net.minecraft.world.entity.LivingEntity
+[183月2026 17:55:14.668] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:LivingEntityMixin from mod kubejs->@Inject::foodEaten(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/food/FoodProperties;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[183月2026 17:55:14.668] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:LivingEntityMixin from mod kubejs->@Inject::foodEaten(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/food/FoodProperties;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[183月2026 17:55:14.668] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:LivingEntityMixin from mod kubejs->@Inject::foodEaten(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/food/FoodProperties;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[183月2026 17:55:14.694] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ItemEntityMixin from kubejs.mixins.json into net.minecraft.world.entity.item.ItemEntity
+[183月2026 17:55:14.699] [pool-9-thread-1/DEBUG] [mixin/]: Mixing LevelMixin from kubejs.mixins.json into net.minecraft.world.level.Level
+[183月2026 17:55:14.715] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ServerLevelMixin from kubejs.mixins.json into net.minecraft.server.level.ServerLevel
+[183月2026 17:55:14.733] [pool-9-thread-1/DEBUG] [mixin/]: Mixing DirectionMixin from kubejs.mixins.json into net.minecraft.core.Direction
+[183月2026 17:55:15.198] [pool-9-thread-1/DEBUG] [mixin/]: Mixing EntityTypeMixin from kubejs.mixins.json into net.minecraft.world.entity.EntityType
+[183月2026 17:55:15.240] [pool-9-thread-1/DEBUG] [mixin/]: Mixing FluidMixin from kubejs.mixins.json into net.minecraft.world.level.material.Fluid
+[183月2026 17:55:15.317] [pool-9-thread-1/DEBUG] [mixin/]: Mixing FallingBlockEntityMixin from kubejs.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
+[183月2026 17:55:15.372] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:FallingBlockEntityMixin from mod kubejs->@Inject::kjs$fallStart(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:15.373] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:FallingBlockEntityMixin from mod kubejs->@Inject::kjs$fallEnd(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:15.373] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:FallingBlockEntityMixin from mod kubejs->@Inject::kjs$fallEnd(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:15.373] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:FallingBlockEntityMixin from mod kubejs->@Inject::kjs$fallEnd(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:15.414] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ContainerMixin from kubejs.mixins.json into net.minecraft.world.Container
+[183月2026 17:55:15.502] [pool-9-thread-1/DEBUG] [mixin/]: Mixing DyeColorMixin from kubejs.mixins.json into net.minecraft.world.item.DyeColor
+[183月2026 17:55:15.572] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ChatFormattingMixin from kubejs.mixins.json into net.minecraft.ChatFormatting
+[183月2026 17:55:15.584] [pool-9-thread-1/DEBUG] [mixin/]: Mixing TextColorMixin from kubejs.mixins.json into net.minecraft.network.chat.TextColor
+[183月2026 17:55:15.668] [pool-9-thread-1/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[183月2026 17:55:15.668] [pool-9-thread-1/DEBUG] [mixin/]: neoforge.mixins.json:BlockEntityTypeAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[183月2026 17:55:15.813] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ItemStackMixin from kubejs.mixins.json into net.minecraft.world.item.ItemStack
+[183月2026 17:55:15.829] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ItemStackClientMixin from kubejs.mixins.json into net.minecraft.world.item.ItemStack
+[183月2026 17:55:15.843] [pool-9-thread-1/DEBUG] [mixin/]: Mixing MutableDataComponentHolderMixin from kubejs.mixins.json into net.neoforged.neoforge.common.MutableDataComponentHolder
+[183月2026 17:55:16.389] [pool-9-thread-1/DEBUG] [mixin/]: Mixing RecipeInputMixin from kubejs.mixins.json into net.minecraft.world.item.crafting.RecipeInput
+[183月2026 17:55:16.404] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ServerPlayerMixin from kubejs.mixins.json into net.minecraft.server.level.ServerPlayer
+[183月2026 17:55:16.419] [pool-9-thread-1/DEBUG] [mixin/]: Mixing DataComponentMapBuilderMixin from kubejs.mixins.json into net.minecraft.core.component.DataComponentMap$Builder
+[183月2026 17:55:16.913] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ItemMixin from kubejs.mixins.json into net.minecraft.world.item.Item
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::isFoil(Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::isBarVisible(Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::getBarWidth(Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::getBarColor(Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::getUseAnimation(Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::getName(Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:16.944] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:ItemMixin from mod kubejs->@Inject::hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:16.961] [pool-9-thread-1/DEBUG] [mixin/]: Mixing DiggerItemMixin from kubejs.mixins.json into net.minecraft.world.item.DiggerItem
+[183月2026 17:55:16.961] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:DiggerItemMixin from mod kubejs->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:16.961] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:DiggerItemMixin from mod kubejs->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:16.961] [pool-9-thread-1/DEBUG] [mixin/]: kubejs.mixins.json:DiggerItemMixin from mod kubejs->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:17.119] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[183月2026 17:55:17.119] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[183月2026 17:55:17.119] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[183月2026 17:55:17.119] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[183月2026 17:55:17.119] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[183月2026 17:55:17.119] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[183月2026 17:55:17.119] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[183月2026 17:55:17.119] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[183月2026 17:55:17.119] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[183月2026 17:55:17.125] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 8413773824 bytes (maybe)
+[183月2026 17:55:17.125] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\hp\AppData\Local\Temp (java.io.tmpdir)
+[183月2026 17:55:17.125] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[183月2026 17:55:17.125] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[183月2026 17:55:17.125] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[183月2026 17:55:17.125] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[183月2026 17:55:17.128] [pool-9-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[183月2026 17:55:17.128] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[183月2026 17:55:17.273] [pool-9-thread-1/DEBUG] [mixin/]: Mixing FireworkRocketEntityMixin from kubejs.mixins.json into net.minecraft.world.entity.projectile.FireworkRocketEntity
+[183月2026 17:55:17.651] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ItemFrameEntityMixin from kubejs.mixins.json into net.minecraft.world.entity.decoration.ItemFrame
+[183月2026 17:55:17.806] [pool-9-thread-1/DEBUG] [mixin/]: Mixing IngredientMixin from kubejs.mixins.json into net.minecraft.world.item.crafting.Ingredient
+[183月2026 17:55:18.237] [pool-9-thread-1/DEBUG] [mixin/]: Mixing MenuTypeMixin from kubejs.mixins.json into net.minecraft.world.inventory.MenuType
+[183月2026 17:55:18.271] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ICustomIngredientMixin from kubejs.mixins.json into net.neoforged.neoforge.common.crafting.ICustomIngredient
+[183月2026 17:55:19.014] [pool-9-thread-1/DEBUG] [mixin/]: Mixing ClickEventMixin from kubejs.mixins.json into net.minecraft.network.chat.ClickEvent
+[183月2026 17:55:19.108] [pool-9-thread-1/DEBUG] [mixin/]: Mixing DamageSourceMixin from kubejs.mixins.json into net.minecraft.world.damagesource.DamageSource
+[183月2026 17:55:19.244] [Render thread/DEBUG] [mixin/]: Mixing LocalPlayerMixin from kubejs.mixins.json into net.minecraft.client.player.LocalPlayer
+[183月2026 17:55:19.249] [Render thread/DEBUG] [mixin/]: Mixing AbstractClientPlayerMixin from kubejs.mixins.json into net.minecraft.client.player.AbstractClientPlayer
+[183月2026 17:55:19.254] [Render thread/DEBUG] [mixin/]: Mixing ScreenMixin from kubejs.mixins.json into net.minecraft.client.gui.screens.Screen
+[183月2026 17:55:19.261] [Render thread/DEBUG] [mixin/]: Mixing ClientLevelMixin from kubejs.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[183月2026 17:55:19.364] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/hp/.trident/cache/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[183月2026 17:55:19.364] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/hp/.trident/cache/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[183月2026 17:55:19.388] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[183月2026 17:55:19.399] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: zhaodaxia
+[183月2026 17:55:19.406] [Render thread/DEBUG] [mixin/]: Mixing OptionsMixin from kubejs.mixins.json into net.minecraft.client.Options
+[183月2026 17:55:19.406] [Render thread/DEBUG] [mixin/]: kubejs.mixins.json:OptionsMixin from mod kubejs->@Inject::loadKJS(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:19.406] [Render thread/DEBUG] [mixin/]: kubejs.mixins.json:OptionsMixin from mod kubejs->@Inject::loadKJS(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:19.406] [Render thread/DEBUG] [mixin/]: kubejs.mixins.json:OptionsMixin from mod kubejs->@Inject::loadKJS(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:19.513] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[183月2026 17:55:19.514] [Render thread/DEBUG] [mixin/]: Mixing WindowMixin from kubejs.mixins.json into com.mojang.blaze3d.platform.Window
+[183月2026 17:55:19.603] [Render thread/DEBUG] [mixin/]: Mixing KeyboardHandlerMixin from kubejs.mixins.json into net.minecraft.client.KeyboardHandler
+[183月2026 17:55:19.604] [Render thread/DEBUG] [mixin/]: kubejs.mixins.json:KeyboardHandlerMixin from mod kubejs->@Inject::reloadResources(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[183月2026 17:55:19.604] [Render thread/DEBUG] [mixin/]: kubejs.mixins.json:KeyboardHandlerMixin from mod kubejs->@Inject::reloadResources(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[183月2026 17:55:19.604] [Render thread/DEBUG] [mixin/]: kubejs.mixins.json:KeyboardHandlerMixin from mod kubejs->@Inject::reloadResources(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[183月2026 17:55:19.696] [Render thread/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 14 threads for parallel mod-loading
+[183月2026 17:55:19.716] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for rhino
+[183月2026 17:55:19.722] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.client.ClientNeoForgeMod]
+[183月2026 17:55:19.731] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [mezz.jei.neoforge.JustEnoughItems]
+[183月2026 17:55:19.732] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [dev.latvian.mods.kubejs.KubeJS]
+[183月2026 17:55:19.759] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
+[183月2026 17:55:19.765] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.1.220
+[183月2026 17:55:19.765] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found FML version 4.0.42
+[183月2026 17:55:19.765] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.220, for MC 1.21.1
+[183月2026 17:55:19.782] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[183月2026 17:55:19.782] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[183月2026 17:55:19.782] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[183月2026 17:55:19.806] [modloading-worker-0/DEBUG] [mezz.jei.common.platform.Services/]: Loaded mezz.jei.neoforge.platform.PlatformHelper@1738d50e for service interface mezz.jei.common.platform.IPlatformHelper
+[183月2026 17:55:19.812] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\hp\.trident\instances\gene_hunter\build\config\jei\jei-debug.ini
+[183月2026 17:55:19.825] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSchema/]: Localization has not loaded yet, waiting to save the config file until JEI starts.
+[183月2026 17:55:19.828] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\hp\.trident\instances\gene_hunter\build\config\jei\jei-mod-id-format.ini
+[183月2026 17:55:19.829] [modloading-worker-0/DEBUG] [mixin/]: Mixing IItemHandlerMixin from kubejs.mixins.json into net.neoforged.neoforge.items.IItemHandler
+[183月2026 17:55:19.838] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSchema/]: Localization has not loaded yet, waiting to save the config file until JEI starts.
+[183月2026 17:55:19.840] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\hp\.trident\instances\gene_hunter\build\config\jei\jei-colors.ini
+[183月2026 17:55:19.852] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSchema/]: Localization has not loaded yet, waiting to save the config file until JEI starts.
+[183月2026 17:55:19.863] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\hp\.trident\instances\gene_hunter\build\config\jei\jei-client.ini
+[183月2026 17:55:19.864] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[183月2026 17:55:19.866] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.server.command.ConfigCommand for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.868] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/server/command/ConfigCommand; to the game event bus
+[183月2026 17:55:19.871] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.875] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSchema/]: Localization has not loaded yet, waiting to save the config file until JEI starts.
+[183月2026 17:55:19.885] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[183月2026 17:55:19.886] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:minecraft...
+[183月2026 17:55:19.886] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:neoforge_gui...
+[183月2026 17:55:19.886] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:debug...
+[183月2026 17:55:19.886] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:gui...
+[183月2026 17:55:19.886] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: kubejs:jei...
+[183月2026 17:55:19.886] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:internal...
+[183月2026 17:55:19.889] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 1.964 milliseconds
+[183月2026 17:55:19.897] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[183月2026 17:55:19.904] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[183月2026 17:55:19.904] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[183月2026 17:55:19.905] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2ef0216c
+[183月2026 17:55:19.931] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[183月2026 17:55:19.931] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 28
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 28
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[183月2026 17:55:19.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[183月2026 17:55:19.945] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[183月2026 17:55:19.945] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[183月2026 17:55:19.945] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[183月2026 17:55:19.954] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/filters/GenericPacketSplitter; to the mod event bus of mod neoforge
+[183月2026 17:55:19.958] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.959] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/NetworkInitialization; to the mod event bus of mod neoforge
+[183月2026 17:55:19.960] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.963] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/ConfigurationInitialization; to the mod event bus of mod neoforge
+[183月2026 17:55:19.964] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.965] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/common/MonsterRoomHooks; to the game event bus
+[183月2026 17:55:19.965] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.967] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/common/DeferredSpawnEggItem$CommonHandler; to the mod event bus of mod neoforge
+[183月2026 17:55:19.967] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.DeferredSpawnEggItem$ColorRegisterHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.968] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/common/DeferredSpawnEggItem$ColorRegisterHandler; to the mod event bus of mod neoforge
+[183月2026 17:55:19.969] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.model.data.ModelDataManager for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.971] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/client/model/data/ModelDataManager; to the game event bus
+[183月2026 17:55:19.971] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.ParticleBoundsDebugRenderer for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.975] [modloading-worker-0/DEBUG] [mixin/]: Mixing CommandSourceStackMixin from kubejs.mixins.json into net.minecraft.commands.CommandSourceStack
+[183月2026 17:55:19.976] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$kjs$sendSuccess$0(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component; to mdd117a0$kubejs$lambda$kjs$sendSuccess$0$0 in kubejs.mixins.json:CommandSourceStackMixin from mod kubejs
+[183月2026 17:55:19.981] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/client/ParticleBoundsDebugRenderer; to the game event bus
+[183月2026 17:55:19.982] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.ClientHooks$ClientEvents for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.986] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/client/ClientHooks$ClientEvents; to the mod event bus of mod neoforge
+[183月2026 17:55:19.987] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.988] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/client/BlockEntityRenderBoundsDebugRenderer; to the game event bus
+[183月2026 17:55:19.988] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.993] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/attachment/AttachmentSync; to the game event bus
+[183月2026 17:55:19.994] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[183月2026 17:55:19.995] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/attachment/AttachmentInternals; to the game event bus
+[183月2026 17:55:20.022] [modloading-worker-0/INFO] [KubeJS/]: Loading vanilla registries...
+[183月2026 17:55:20.038] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[183月2026 17:55:20.041] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[183月2026 17:55:20.046] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration does not have required mod 'architectury' loaded, skipping
+[183月2026 17:55:20.048] [modloading-worker-0/INFO] [KubeJS/]: Done in 7.998 ms
+[183月2026 17:55:20.141] [modloading-worker-0/DEBUG] [mixin/]: Mixing CollectionTagMixin from kubejs.mixins.json into net.minecraft.nbt.CollectionTag
+[183月2026 17:55:20.156] [modloading-worker-0/DEBUG] [mixin/]: Mixing SizedIngredientMixin from kubejs.mixins.json into net.neoforged.neoforge.common.crafting.SizedIngredient
+[183月2026 17:55:20.158] [modloading-worker-0/DEBUG] [mixin/]: Mixing FluidStackMixin from kubejs.mixins.json into net.neoforged.neoforge.fluids.FluidStack
+[183月2026 17:55:20.162] [modloading-worker-0/DEBUG] [mixin/]: Mixing FluidIngredientMixin from kubejs.mixins.json into net.neoforged.neoforge.fluids.crafting.FluidIngredient
+[183月2026 17:55:20.165] [modloading-worker-0/DEBUG] [mixin/]: Mixing SizedFluidIngredientMixin from kubejs.mixins.json into net.neoforged.neoforge.fluids.crafting.SizedFluidIngredient
+[183月2026 17:55:20.373] [modloading-worker-0/DEBUG] [mixin/]: Mixing MinecraftServerMixin from kubejs.mixins.json into net.minecraft.server.MinecraftServer
+[183月2026 17:55:20.375] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$kjs$endResourceReload$1()V to mdd117a0$kubejs$lambda$kjs$endResourceReload$1$0 in kubejs.mixins.json:MinecraftServerMixin from mod kubejs
+[183月2026 17:55:20.375] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$kjs$init$0()V to mdd117a0$kubejs$lambda$kjs$init$0$1 in kubejs.mixins.json:MinecraftServerMixin from mod kubejs
+[183月2026 17:55:20.385] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftServerMixin from mod kubejs->@Inject::kjs$init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:20.385] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftServerMixin from mod kubejs->@Inject::kjs$init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:20.385] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftServerMixin from mod kubejs->@Inject::kjs$init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:20.385] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftServerMixin from mod kubejs->@Inject::kjs$postTickServer(Ljava/util/function/BooleanSupplier;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:20.385] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftServerMixin from mod kubejs->@Inject::kjs$postTickServer(Ljava/util/function/BooleanSupplier;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:20.385] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftServerMixin from mod kubejs->@Inject::kjs$postTickServer(Ljava/util/function/BooleanSupplier;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:20.385] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftServerMixin from mod kubejs->@Inject::kjs$endResourceReload(Ljava/util/Collection;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[183月2026 17:55:20.385] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftServerMixin from mod kubejs->@Inject::kjs$endResourceReload(Ljava/util/Collection;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[183月2026 17:55:20.385] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:MinecraftServerMixin from mod kubejs->@Inject::kjs$endResourceReload(Ljava/util/Collection;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[183月2026 17:55:20.400] [modloading-worker-0/DEBUG] [mixin/]: Mixing WorldOpenFlowsMixin from kubejs.mixins.json into net.minecraft.client.gui.screens.worldselection.WorldOpenFlows
+[183月2026 17:55:20.403] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:WorldOpenFlowsMixin from mod kubejs->@Inject::printServerLogWarning(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:20.403] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:WorldOpenFlowsMixin from mod kubejs->@Inject::printServerLogWarning(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:20.403] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:WorldOpenFlowsMixin from mod kubejs->@Inject::printServerLogWarning(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:20.413] [modloading-worker-0/DEBUG] [mixin/]: Mixing ClientPacketListenerMixin from kubejs.mixins.json into net.minecraft.client.multiplayer.ClientPacketListener
+[183月2026 17:55:20.439] [modloading-worker-0/DEBUG] [mixin/]: Mixing LevelRendererMixin from kubejs.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[183月2026 17:55:20.443] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:LevelRendererMixin from mod kubejs->@Inject::kjs$loadPostChains(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:20.443] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:LevelRendererMixin from mod kubejs->@Inject::kjs$loadPostChains(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:20.443] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:LevelRendererMixin from mod kubejs->@Inject::kjs$loadPostChains(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:20.443] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:LevelRendererMixin from mod kubejs->@Inject::kjs$resizePostChains(IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[183月2026 17:55:20.443] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:LevelRendererMixin from mod kubejs->@Inject::kjs$resizePostChains(IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[183月2026 17:55:20.443] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:LevelRendererMixin from mod kubejs->@Inject::kjs$resizePostChains(IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[183月2026 17:55:20.444] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:LevelRendererMixin from mod kubejs->@Inject::kjs$highlightBlock(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lnet/minecraft/world/entity/Entity;DDDLnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[183月2026 17:55:20.459] [modloading-worker-0/DEBUG] [mixin/]: Mixing GameRendererMixin from kubejs.mixins.json into net.minecraft.client.renderer.GameRenderer
+[183月2026 17:55:20.463] [modloading-worker-0/DEBUG] [mixin/]: kubejs.mixins.json:GameRendererMixin from mod kubejs->@Inject::kjs$checkEntityPostEffect(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[183月2026 17:55:20.524] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[183月2026 17:55:20.527] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:main.js in 0.036 s
+[183月2026 17:55:20.529] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.472 s with 0 errors and 0 warnings
+[183月2026 17:55:20.581] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:main.js#2: Hello, World! (Loaded client example script)
+[183月2026 17:55:20.581] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded script client_scripts:main.js in 0.001 s
+[183月2026 17:55:20.582] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded 1/1 KubeJS client scripts in 0.052 s with 0 errors and 0 warnings
+[183月2026 17:55:20.586] [modloading-worker-0/INFO] [KubeJS Startup/]: Validated 0 files in kubejs/assets/ in 1ms
+[183月2026 17:55:20.587] [modloading-worker-0/INFO] [KubeJS Startup/]: Validated 0 files in kubejs/data/ in 0ms
+[183月2026 17:55:20.610] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for kubejs
+[183月2026 17:55:20.611] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class dev.latvian.mods.kubejs.net.KubeJSNet for @SubscribeEvent-annotated methods
+[183月2026 17:55:20.612] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Ldev/latvian/mods/kubejs/net/KubeJSNet; to the mod event bus of mod kubejs
+[183月2026 17:55:20.613] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class dev.latvian.mods.kubejs.item.KubeJSItemEventHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:20.615] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Ldev/latvian/mods/kubejs/item/KubeJSItemEventHandler; to the game event bus
+[183月2026 17:55:20.616] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class dev.latvian.mods.kubejs.KubeJSModEventHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:20.619] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Ldev/latvian/mods/kubejs/KubeJSModEventHandler; to the mod event bus of mod kubejs
+[183月2026 17:55:20.620] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class dev.latvian.mods.kubejs.entity.KubeJSEntityEventHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:20.622] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Ldev/latvian/mods/kubejs/entity/KubeJSEntityEventHandler; to the game event bus
+[183月2026 17:55:20.624] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class dev.latvian.mods.kubejs.registry.RegistryEventHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:20.625] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Ldev/latvian/mods/kubejs/registry/RegistryEventHandler; to the mod event bus of mod kubejs
+[183月2026 17:55:20.626] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class dev.latvian.mods.kubejs.level.KubeJSWorldEventHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:20.627] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Ldev/latvian/mods/kubejs/level/KubeJSWorldEventHandler; to the game event bus
+[183月2026 17:55:20.628] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class dev.latvian.mods.kubejs.client.KubeJSClientEventHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:20.638] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Found mix of game bus and mod bus listeners in @EventBusSubscriber class Ldev/latvian/mods/kubejs/client/KubeJSClientEventHandler;, registering them separately
+[183月2026 17:55:20.639] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.blockColors(net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$Block) to the event bus of mod kubejs
+[183月2026 17:55:20.640] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.itemColors(net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$Item) to the event bus of mod kubejs
+[183月2026 17:55:20.640] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.setupClient(net.neoforged.fml.event.lifecycle.FMLClientSetupEvent) to the event bus of mod kubejs
+[183月2026 17:55:20.641] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.addClientPacks(net.neoforged.neoforge.event.AddPackFindersEvent) to the event bus of mod kubejs
+[183月2026 17:55:20.641] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.registerRenderers(net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterRenderers) to the event bus of mod kubejs
+[183月2026 17:55:20.641] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.registerMenuScreens(net.neoforged.neoforge.client.event.RegisterMenuScreensEvent) to the event bus of mod kubejs
+[183月2026 17:55:20.641] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.registerKeyMappings(net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent) to the event bus of mod kubejs
+[183月2026 17:55:20.642] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.registerCoreShaders(net.neoforged.neoforge.client.event.RegisterShadersEvent) throws java.io.IOException to the event bus of mod kubejs
+[183月2026 17:55:20.643] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.registerClientExtensions(net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent) to the event bus of mod kubejs
+[183月2026 17:55:20.644] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.registerParticleProviders(net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent) to the event bus of mod kubejs
+[183月2026 17:55:20.644] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.tagsUpdated(net.neoforged.neoforge.event.TagsUpdatedEvent) to the game event bus
+[183月2026 17:55:20.644] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.clientTick(net.neoforged.neoforge.client.event.ClientTickEvent$Pre) to the game event bus
+[183月2026 17:55:20.644] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.onRegisterClientCommands(net.neoforged.neoforge.client.event.RegisterClientCommandsEvent) to the game event bus
+[183月2026 17:55:20.645] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.loggingIn(net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent$LoggingIn) to the game event bus
+[183月2026 17:55:20.645] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.loggingOut(net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent$LoggingOut) to the game event bus
+[183月2026 17:55:20.645] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.onItemTooltip(net.neoforged.neoforge.event.entity.player.ItemTooltipEvent) to the game event bus
+[183月2026 17:55:20.646] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.debugInfo(net.neoforged.neoforge.client.event.CustomizeGuiOverlayEvent$DebugText) to the game event bus
+[183月2026 17:55:20.646] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.hudPostDraw(net.neoforged.neoforge.client.event.RenderGuiEvent$Post) to the game event bus
+[183月2026 17:55:20.646] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.worldRender(net.neoforged.neoforge.client.event.RenderLevelStageEvent) to the game event bus
+[183月2026 17:55:20.647] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.guiPostInit(net.neoforged.neoforge.client.event.ScreenEvent$Init$Post) to the game event bus
+[183月2026 17:55:20.647] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.openScreenEvent(net.neoforged.neoforge.client.event.ScreenEvent$Opening) to the game event bus
+[183月2026 17:55:20.647] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void dev.latvian.mods.kubejs.client.KubeJSClientEventHandler.screenPostDraw(net.neoforged.neoforge.client.event.ScreenEvent$Render$Post) to the game event bus
+[183月2026 17:55:20.648] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class dev.latvian.mods.kubejs.player.KubeJSPlayerEventHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:20.651] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Ldev/latvian/mods/kubejs/player/KubeJSPlayerEventHandler; to the game event bus
+[183月2026 17:55:20.654] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class dev.latvian.mods.kubejs.block.KubeJSBlockEventHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:20.655] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Ldev/latvian/mods/kubejs/block/KubeJSBlockEventHandler; to the game event bus
+[183月2026 17:55:20.656] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class dev.latvian.mods.kubejs.server.KubeJSServerEventHandler for @SubscribeEvent-annotated methods
+[183月2026 17:55:20.660] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Ldev/latvian/mods/kubejs/server/KubeJSServerEventHandler; to the game event bus
+[183月2026 17:55:20.836] [modloading-sync-worker/DEBUG] [mixin/]: Mixing TagEmptyConditionMixin from kubejs.mixins.json into net.neoforged.neoforge.common.conditions.TagEmptyCondition
+[183月2026 17:55:20.839] [modloading-sync-worker/DEBUG] [mixin/]: kubejs.mixins.json:TagEmptyConditionMixin from mod kubejs->@Inject::kjs$test(Lnet/neoforged/neoforge/common/conditions/ICondition$IContext;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[183月2026 17:55:20.866] [modloading-sync-worker/DEBUG] [mixin/]: Mixing CompoundIngredientMixin from kubejs.mixins.json into net.neoforged.neoforge.common.crafting.CompoundIngredient
+[183月2026 17:55:20.871] [modloading-sync-worker/DEBUG] [mixin/]: Mixing DifferenceIngredientMixin from kubejs.mixins.json into net.neoforged.neoforge.common.crafting.DifferenceIngredient
+[183月2026 17:55:20.873] [modloading-sync-worker/DEBUG] [mixin/]: Mixing IntersectionIngredientMixin from kubejs.mixins.json into net.neoforged.neoforge.common.crafting.IntersectionIngredient
+[183月2026 17:55:20.968] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[183月2026 17:55:20.979] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
+[183月2026 17:55:20.979] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\hp\.trident\instances\gene_hunter\build\config\neoforge-client.toml
+[183月2026 17:55:20.986] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\hp\.trident\instances\gene_hunter\build\config\neoforge-client.toml for changes
+[183月2026 17:55:20.986] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[183月2026 17:55:20.987] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[183月2026 17:55:20.987] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\hp\.trident\instances\gene_hunter\build\config\neoforge-common.toml
+[183月2026 17:55:20.988] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\hp\.trident\instances\gene_hunter\build\config\neoforge-common.toml for changes
+[183月2026 17:55:21.543] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, KubeJS Virtual Resource Pack [Before Mods, assets], mod_resources, mod/rhino, mod/neoforge, mod/jei, KubeJS Virtual Resource Pack [Internal, assets], KubeJS Virtual Resource Pack [After Mods, assets], KubeJS File Resource Pack [assets], mod/kubejs, KubeJS Virtual Resource Pack [Last, assets]
+[183月2026 17:55:21.646] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[183月2026 17:55:21.651] [Render thread/INFO] [KubeJS Client/]: Client resource reload complete!
+[183月2026 17:55:21.652] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[183月2026 17:55:21.653] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 580.3 μs
+[183月2026 17:55:21.833] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Sided setup: 1 jobs
+[183月2026 17:55:21.858] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[183月2026 17:55:21.864] [Render thread/INFO] [KubeJS/]: Started the local web server at http://localhost:61423
+[183月2026 17:55:21.866] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 33.23 ms
+[183月2026 17:55:23.071] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Complete loading of 5 mods: 1 jobs
+[183月2026 17:55:23.074] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 3.526 ms
+[183月2026 17:55:23.196] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[183月2026 17:55:23.196] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[183月2026 17:55:23.565] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 耳机 (HyperX Cloud III)
+[183月2026 17:55:23.565] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[183月2026 17:55:23.625] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[183月2026 17:55:23.631] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[183月2026 17:55:23.631] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[183月2026 17:55:23.632] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[183月2026 17:55:23.632] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[183月2026 17:55:23.634] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[183月2026 17:55:23.634] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[183月2026 17:55:23.634] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[183月2026 17:55:23.634] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[183月2026 17:55:23.783] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[183月2026 17:55:23.785] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[183月2026 17:55:23.786] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[183月2026 17:55:23.786] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[183月2026 17:55:23.786] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[183月2026 17:55:23.805] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[183月2026 17:55:23.918] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[183月2026 17:55:23.918] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[183月2026 17:55:31.289] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

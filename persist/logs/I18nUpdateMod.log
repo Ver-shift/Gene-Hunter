@@ -1,0 +1,9 @@
+[2026-01-12 22:44:46] [INFO]: I18nUpdate Mod 3.7.0 is loaded in 1.21.1 with Forge
+[2026-01-12 22:44:46] [DEBUG]: Minecraft path: C:\Users\hp\.trident\instances\gene_hunter_2.0\build
+[2026-01-12 22:44:46] [DEBUG]: Local Storage Pos: C:\Users\hp
+[2026-01-12 22:44:46] [INFO]: Using fastest url: http://8.137.167.65:64684/
+[2026-01-12 22:44:46] [DEBUG]: Using asset root: http://8.137.167.65:64684/
+[2026-01-12 22:44:46] [DEBUG]: Local file C:\Users\hp\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip has been updated recently.
+[2026-01-12 22:44:46] [DEBUG]: Already up to date.
+[2026-01-12 22:44:46] [DEBUG]: C:\Users\hp\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip md5: 6AD81D736F8654F29528B2E846322F1D, remote md5: 7CC2DD657D71DACE1E4394396782714C
+[2026-01-12 22:44:46] [INFO]: Downloading: http://8.137.167.65:64684/Minecraft-Mod-Language-Modpack-1-20.zip -> C:\Users\hp\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip.tmp

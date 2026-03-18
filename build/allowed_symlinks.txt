@@ -1,0 +1,3 @@
+[prefix]C:\Users\hp\.trident\cache\packages
+[prefix]C:\Users\hp\.trident\instances\gene_hunter\live
+[prefix]C:\Users\hp\.trident\instances\gene_hunter\persist

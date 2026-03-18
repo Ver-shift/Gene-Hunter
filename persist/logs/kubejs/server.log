@@ -1,0 +1,16 @@
+[17:11:43] [INIT] KubeJS 2101.7.2-build.348; MC 2101 NeoForge
+[17:11:43] [INIT] Loaded plugins:
+[17:11:43] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[17:11:43] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[17:11:43] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[17:11:43] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
+[17:11:43] [INIT] - moe.wolfgirl.probejs.plugin.ProbeJSKJSPlugin
+[17:11:43] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[17:11:43] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[17:11:43] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[17:11:43] [INIT] - com.mafuyu404.smartkeyprompts.SmartKeyPromptsJSPlugin
+[17:11:43] [INIT] - dev.xkmc.l2hostility.compat.kubejs.LHKJSPlugin
+[17:11:43] [INIT] - com.github.ysbbbbbb.kaleidoscopecookery.compat.kubejs.ModKubeJSPlugin
+[17:11:43] [INFO] Loaded script server_scripts:main.js in 0.0 s
+[17:11:43] [INFO] Loaded 1/1 KubeJS server scripts in 0.021 s with 0 errors and 0 warnings
+[17:11:48] [INFO] Server resource reload complete!
