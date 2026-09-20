@@ -1,0 +1,24 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.sword/sword_qi.description"},
+  "components": {
+    "gene_hunter:sword_qi": {
+      "count": 1,
+      "damage_ratio": 1.0,
+      "sword_damage_penalty": 0.0
+    },
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "gene_hunter:blade_attack_damage",
+          "id": "biotech:sword_qi_blade_penalty",
+          "amount": -0.5,
+          "operation": "add_multiplied_base",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

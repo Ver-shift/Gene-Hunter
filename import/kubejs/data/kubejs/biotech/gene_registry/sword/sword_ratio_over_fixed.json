@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.sword/sword_ratio_over_fixed.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "gene_hunter:sword_attack_damage",
+          "id": "biotech:sword_ratio_over_fixed_ratio",
+          "amount": 0.15,
+          "operation": "add_multiplied_base",
+          "slot": "any"
+        },
+        {
+          "type": "gene_hunter:sword_attack_damage",
+          "id": "biotech:sword_ratio_over_fixed_fixed",
+          "amount": -0.5,
+          "operation": "add_value",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

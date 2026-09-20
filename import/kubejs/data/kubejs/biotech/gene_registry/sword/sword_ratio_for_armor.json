@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.sword/sword_ratio_for_armor.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "gene_hunter:sword_attack_damage",
+          "id": "biotech:sword_ratio_for_armor_ratio",
+          "amount": 0.15,
+          "operation": "add_multiplied_base",
+          "slot": "any"
+        },
+        {
+          "type": "minecraft:generic.armor",
+          "id": "biotech:sword_ratio_for_armor_armor",
+          "amount": -2.0,
+          "operation": "add_value",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

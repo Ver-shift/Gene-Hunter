@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.blade/dodge_blade_fixed_for_crit.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "gene_hunter:dodge",
+          "id": "biotech:dodge_blade_fixed_for_crit_dodge",
+          "amount": 20.0,
+          "operation": "add_value",
+          "slot": "any"
+        },
+        {
+          "type": "gene_hunter:blade_attack_damage",
+          "id": "biotech:dodge_blade_fixed_for_crit_blade",
+          "amount": 1.5,
+          "operation": "add_value",
+          "slot": "any"
+        },
+        {
+          "type": "critical_strike:chance",
+          "id": "biotech:dodge_blade_fixed_for_crit_chance",
+          "amount": -10.0,
+          "operation": "add_value",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

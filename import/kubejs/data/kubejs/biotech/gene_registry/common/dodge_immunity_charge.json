@@ -1,0 +1,19 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.common/dodge_immunity_charge.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "gene_hunter:damage_immunity_count",
+          "id": "biotech:dodge_immunity_charge_count",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.sword/heal_on_sword_hits.description"},
+  "components": {
+    "gene_hunter:heal_on_sword_attack": {
+      "hits": 5,
+      "heal": 1.0
+    }
+  }
+}
+

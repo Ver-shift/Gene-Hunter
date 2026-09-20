@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.blade/swift_blade_for_armor.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "minecraft:generic.attack_speed",
+          "id": "biotech:swift_blade_for_armor_attack_speed",
+          "amount": 0.15,
+          "operation": "add_multiplied_base",
+          "slot": "any"
+        },
+        {
+          "type": "gene_hunter:blade_attack_damage",
+          "id": "biotech:swift_blade_for_armor_blade",
+          "amount": 1.5,
+          "operation": "add_value",
+          "slot": "any"
+        },
+        {
+          "type": "minecraft:generic.armor",
+          "id": "biotech:swift_blade_for_armor_armor",
+          "amount": -2.0,
+          "operation": "add_value",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

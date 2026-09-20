@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.blade/dodge_blade_for_attack_speed.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "gene_hunter:dodge",
+          "id": "biotech:dodge_blade_for_attack_speed_dodge",
+          "amount": 10.0,
+          "operation": "add_value",
+          "slot": "any"
+        },
+        {
+          "type": "gene_hunter:blade_attack_damage",
+          "id": "biotech:dodge_blade_for_attack_speed_blade",
+          "amount": 1.5,
+          "operation": "add_value",
+          "slot": "any"
+        },
+        {
+          "type": "minecraft:generic.attack_speed",
+          "id": "biotech:dodge_blade_for_attack_speed_attack_speed",
+          "amount": -0.15,
+          "operation": "add_multiplied_base",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.sword/swift_sword_for_dodge.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "minecraft:generic.attack_speed",
+          "id": "biotech:swift_sword_for_dodge_attack_speed",
+          "amount": 0.15,
+          "operation": "add_multiplied_base",
+          "slot": "any"
+        },
+        {
+          "type": "gene_hunter:sword_attack_damage",
+          "id": "biotech:swift_sword_for_dodge_ratio",
+          "amount": 0.15,
+          "operation": "add_multiplied_base",
+          "slot": "any"
+        },
+        {
+          "type": "gene_hunter:dodge",
+          "id": "biotech:swift_sword_for_dodge_dodge",
+          "amount": -10.0,
+          "operation": "add_value",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

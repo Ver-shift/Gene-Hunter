@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.sword/sword_ratio_for_dodge.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "gene_hunter:sword_attack_damage",
+          "id": "biotech:sword_ratio_for_dodge_ratio",
+          "amount": 0.15,
+          "operation": "add_multiplied_base",
+          "slot": "any"
+        },
+        {
+          "type": "gene_hunter:dodge",
+          "id": "biotech:sword_ratio_for_dodge_dodge",
+          "amount": -10.0,
+          "operation": "add_value",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

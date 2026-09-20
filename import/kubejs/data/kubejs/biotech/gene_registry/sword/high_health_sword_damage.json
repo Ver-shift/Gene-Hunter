@@ -1,0 +1,12 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.sword/high_health_sword_damage.description"},
+  "components": {
+    "gene_hunter:high_health_sword_damage": {
+      "health_threshold": 0.7,
+      "damage_bonus": 0.2
+    }
+  }
+}
+

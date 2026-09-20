@@ -1,0 +1,33 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.blade/blade_fixed_dodge_over_armor.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "gene_hunter:blade_attack_damage",
+          "id": "biotech:blade_fixed_dodge_over_armor_blade",
+          "amount": 1.5,
+          "operation": "add_value",
+          "slot": "any"
+        },
+        {
+          "type": "gene_hunter:dodge",
+          "id": "biotech:blade_fixed_dodge_over_armor_dodge",
+          "amount": 10.0,
+          "operation": "add_value",
+          "slot": "any"
+        },
+        {
+          "type": "minecraft:generic.armor",
+          "id": "biotech:blade_fixed_dodge_over_armor_armor",
+          "amount": -2.0,
+          "operation": "add_value",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

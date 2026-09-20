@@ -2,29 +2,486 @@
   "name": "Gene Hunter",
   "setup": {
     "source": null,
+    "sourceOrders": [],
     "version": "1.21.1",
-    "loader": "net.neoforged:21.1.220",
+    "loader": "net.neoforged:21.1.251",
     "packages": [
       {
-        "purl": "curseforge:238222@7420587",
+        "pref": "pref://curseforge/238222@8895652",
         "enabled": true,
         "source": null,
         "tags": []
       },
       {
-        "purl": "curseforge:416294@7104526",
+        "pref": "pref://curseforge/416294@8463898",
         "enabled": true,
         "source": null,
         "tags": []
       },
       {
-        "purl": "curseforge:238086@7278501",
+        "pref": "pref://curseforge/238086@8843626",
         "enabled": true,
         "source": null,
         "tags": []
       },
       {
-        "purl": "curseforge:585406@7105159",
+        "pref": "pref://curseforge/585406@8304356",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/317780@8849973",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/263420@8849842",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/618298@8838842",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/422301@8845926",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/235577@8163135",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/348521@5729127",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/658587@7389814",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/639842@8430183",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/659887@8746001",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1475755@8715141",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/419699@8492726",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1005914@8883390",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/531761@8645517",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/351264@8335665",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/394468@8756580",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/455508@8242804",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/626676@8866144",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/309927@6529130",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/388172@8893490",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1492763@8364894",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/855414@8680204",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/715660@8922038",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1123977@8921953",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1001614@8345326",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/551586@8706841",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1040076@8757837",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1072905@7738312",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1010827@8682870",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/324717@8591319",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1309203@8910036",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/228525@7606240",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1023259@6961457",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/280510@7115922",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/944035@8902342",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1314084@8123167",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/989611@7536377",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1379562@7224268",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/245755@8873000",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/60089@5637846",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/248787@7854442",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/790626@8774737",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/429235@7524151",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1173196@7803145",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/404468@8724782",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/404465@8858846",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/889915@8909889",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/289412@8885017",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/386134@8231400",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/495476@8829114",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/852665@7232511",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1316458@8059464",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1171602@8675568",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/283644@8463693",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/898963@8502288",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1509181@8708793",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/410295@5453385",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/938643@5453382",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/367706@8752297",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/858542@5831692",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/250398@6368976",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/237307@5610814",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/852662@5770623",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1290628@8294847",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://modrinth/XaDC71GB@xDAotknu",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://modrinth/lWDHr9jE@n4iyW7aB",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/909375@8412915",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1491239@8660377",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1376024@7488072",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/871799@8261780",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1326436@8767886",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/417802@6926284",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1567378@8858794",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/1276893@8876872",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/297404@7173159",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/357540@6369797",
+        "enabled": true,
+        "source": null,
+        "tags": []
+      },
+      {
+        "pref": "pref://curseforge/881096@6733254",
         "enabled": true,
         "source": null,
         "tags": []

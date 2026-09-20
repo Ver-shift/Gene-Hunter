@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.sword/sword_over_blade.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "gene_hunter:sword_attack_damage",
+          "id": "biotech:sword_over_blade_sword",
+          "amount": 1.5,
+          "operation": "add_value",
+          "slot": "any"
+        },
+        {
+          "type": "gene_hunter:blade_attack_damage",
+          "id": "biotech:sword_over_blade_blade",
+          "amount": -1.5,
+          "operation": "add_value",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.sword/sword_weakness.description"},
+  "components": {
+    "gene_hunter:sword_attack_weakness": {
+      "duration": 100,
+      "amplifier": 0
+    }
+  }
+}
+

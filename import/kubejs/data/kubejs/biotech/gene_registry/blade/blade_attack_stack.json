@@ -1,0 +1,12 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.blade/blade_attack_stack.description"},
+  "components": {
+    "gene_hunter:blade_attack_stack": {
+      "attack_damage_per_hit": 0.01,
+      "max_bonus": 0.5
+    }
+  }
+}
+

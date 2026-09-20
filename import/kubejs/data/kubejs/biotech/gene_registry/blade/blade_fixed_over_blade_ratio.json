@@ -1,0 +1,26 @@
+{
+  "rarity": "rare",
+  "slots": ["xene_equip_slot"],
+  "description": {"translate": "gene.kubejs.blade/blade_fixed_over_blade_ratio.description"},
+  "components": {
+    "biotech:attributes": {
+      "modifiers": [
+        {
+          "type": "gene_hunter:blade_attack_damage",
+          "id": "biotech:blade_fixed_over_blade_ratio_fixed",
+          "amount": 1.5,
+          "operation": "add_value",
+          "slot": "any"
+        },
+        {
+          "type": "gene_hunter:blade_attack_damage",
+          "id": "biotech:blade_fixed_over_blade_ratio_ratio",
+          "amount": -0.15,
+          "operation": "add_multiplied_base",
+          "slot": "any"
+        }
+      ]
+    }
+  }
+}
+
